@@ -1,2 +1,2 @@
-from rubi_budget_loader import RubiBudgetLoader
-from rubi_payments_loader import RubiPaymentsLoader
+from lavallduixo_budget_loader import LavallduixoBudgetLoader
+from lavallduixo_payments_loader import LavallduixoPaymentsLoader
