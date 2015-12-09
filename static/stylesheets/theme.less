@@ -12,10 +12,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .form-search{
-  background: #ddd;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  
+  label{
+    color: white;
+  }
 
   .container-fluid{
     padding: 12px 0;
@@ -61,9 +64,9 @@ a:hover,
 
   a {
     display: inline;
-    color: @color-base;
+    color: white;
   }
-  a:hover { color: lighten( @color-base, 10% ); }
+  a:hover { color: #ddd; }
 }
 
 #menu-lang{
@@ -75,9 +78,13 @@ a:hover,
     li{
       list-style: none;
       float: left;
-      border-left: 1px solid @color-base;
+      border-left: 1px solid white;
       padding: 0 6px;
       line-height: 1em;
+      
+      a{
+        color: white;
+      }
 
       &:first-child{
         border: none;
@@ -96,7 +103,7 @@ a:hover,
 
 // Masthead
 header[role="banner"] {
-  background: white;
+  background: #363636;
   margin: 0;
   text-align: center;
 
@@ -105,11 +112,11 @@ header[role="banner"] {
     height: 220px;
 
     .logo{
-      width: 168px;
-      height: 73px;
+      width: 56px;
+      height: 80px;
       text-indent: -9999px;
       overflow: hidden;
-      background: url(../assets/logo.png) no-repeat 0 0 white;
+      background: url(../assets/logo.png) no-repeat 0 0 transparent;
       margin: 20px auto;
     }
 
@@ -190,12 +197,12 @@ header[role="banner"] {
 
 // Footer
 .footer-corp{
-  color: white;
-  background: @color-base;
+  //color: white;
+  //background: @color-base;
   padding: 2em 2%;
 
   a{
-    color: white;
+    //color: white;
     padding: 0;
   }
 
