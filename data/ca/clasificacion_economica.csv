@@ -521,21 +521,18 @@ G,9,4,,Devolució de dipòsits i fiances
 G,9,4,0,Devolució de dipòsits
 G,9,4,1,Devolució de fiances
 #
-# Conceptos específicos de Rubí
-I,3,5,9,Quotes urbanístiques
-I,4,7,0,D'empreses privades
+# Conceptos específicos de La Vall d'Uixo
 I,4,8,0,De famílies e institucions sense fins de lucre
 I,5,2,0,Interessos de dipòsits
-I,7,7,0,D'empreses privades
-I,7,8,0,De famílies e institucions sense fins de lucre
-G,1,5,4,"Fons homologació, vertebració i v.p.t."
-G,1,5,5,Modernització
-G,1,5,6,Ajustes tècnics
-G,2,7,0,Despeses imprevistes i funcions no classificades
-G,4,1,0,A organismes autònoms de l'entitat local
-G,4,8,0,Transferències corrents
-G,4,8,1,"Premis, beques i pensions d'estudi"
-G,4,8,9,Altres transferències
-G,4,9,0,A l'exterior
-G,7,4,0,A ens públics i societats mercantils de l'entitat local
-G,7,8,0,Serveis Generals d'Urbanisme i Arquitectura
+G,4,7,3,
+G,4,7,4,
+G,4,8,0,A famílies e institucions sense fins de lucre
+G,4,8,1,
+G,4,8,2,
+G,4,8,3,
+G,4,8,4,
+G,4,8,5,
+G,4,8,6,
+G,4,8,9,
+G,7,8,2,
+G,7,8,9,

@@ -23,34 +23,13 @@ class LavallduixoBudgetLoader(SimpleBudgetLoader):
         # mapping to be constant over time, we are forced to amend budget data prior to 2015.
         # See https://github.com/dcabo/presupuestos-aragon/wiki/La-clasificaci%C3%B3n-funcional-en-las-Entidades-Locales
         programme_mapping = {
-            # '1330': '1340',     # Mobilidad
-            # '1340': '1350',     # Protección Civil
-            # '1520': '1521',     # Vivienda
-            # '1550': '1531',     # Vías públicas
-            # '1620': '1621',     # Recogida de residuos
-            # '1720': '1721',     # Medio ambiente
-            # '2320': '2312',     # Mujer
-            # '2321': '2313',     # Ciudadanía y civismo
-            # '2330': '2314',     # Personas mayores y dependencia
-            # '3130': '3110',     # Salud pública
-            # '3132': '3111',     # Acogida de animales
-            # '3210': '3261',     # Guarderías
-            # '3221': '3262',     # Escuela de arte
-            # '3222': '3263',     # Escuela de música
-            # '3230': '3260',     # Promoción educativa
-            # '3320': '3321',     # Bibliotecas públicas
-            # '3360': '3330',     # Museos
-            # '3350': '3342',     # Artes escénicas
-            # '4311': '4312',     # Mercado
-            # '4410': '4411',     # Transporte colectivo urbano de viajeros
-            # '9211': '9202',     # Servicios generales del área de planificación estratégica
-            # '9213': '9206',     # Servicios generales del área de cohesión social
+            # '1533': '1530',     # Vías públicas
         }
 
         is_expense = (filename.find('gastos.csv')!=-1)
         is_actual = (filename.find('/ejecucion_')!=-1)
         if is_expense:
-            fc_code = self.clean(line[1]).zfill(4)          # Fill with zeroes on the left if needed
+            fc_code = self.clean(line[2]).ljust(4,'0')  # Fill with zeroes on the right if needed
 
             # For years before 2015 we check whether we need to amend the programme code
             year = re.search('municipio/(\d+)/', filename).group(1)
@@ -62,23 +41,23 @@ class LavallduixoBudgetLoader(SimpleBudgetLoader):
             return {
                 'is_expense': True,
                 'is_actual': is_actual,
-                'fc_code': fc_code,
-                'ec_code': self.clean(line[2]),
+                'fc_code': fc_code[:4],
+                'ec_code': self.clean(line[3])[:3],
                 'ic_code': '100',
-                'item_number': self.clean(line[2])[-2:],    # Last two digits
-                'description': line[3],
-                'amount': self._parse_amount(line[7 if is_actual else 4])
+                'item_number': self.clean(line[3])[-2:],    # Last two digits
+                'description': line[0],
+                'amount': self._parse_amount(line[6 if is_actual else 4])
             }
 
         else:
             return {
                 'is_expense': False,
                 'is_actual': is_actual,
-                'ec_code': self.clean(line[1]),
+                'ec_code': self.clean(line[1])[:3],
                 'ic_code': '100',                           # All income goes to the root node
                 'item_number': self.clean(line[1])[-2:],    # Last two digits
                 'description': line[2],
-                'amount': self._parse_amount(line[6 if is_actual else 3])
+                'amount': self._parse_amount(line[5 if is_actual else 3])
             }
 
     # We don't have an institutional breakdown in Torrelodones, so we create just a catch-all organism.
