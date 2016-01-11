@@ -39,21 +39,11 @@
 
     <hr/>
     <h4 style="text-align: center; margin-top: 40px">{{ _('Tasas') }}</h4>
-    <label for="select-garbage">{{ _('Unidad familiar') }}</label>
-    <select id="select-garbage">
-      <option value="0" type="text" selected="selected">{{ _('Un adulto y dos menores') }}</option>
-      <option value="1" type="text">{{ _('Dos adultos y dos menores') }}</option>
-      <option value="2" type="text">{{ _('Dos adultos jubilados') }}</option>
-      <option value="3" type="text">{{ _('Familia numerosa') }}</option>
-    </select>
-    <span class="select-info">{{ _('Tasa de basuras') }}: <span id="select-garbage-tax"></span></span>
 
-    <hr/>
     <label for="select-parking">{{ _('¿Tienes un vado?') }}</label>
     <select id="select-parking">
       <option value="0" type="text" selected="selected">{{ _('No') }}</option>
-      <option value="1" type="text">{{ _('Sí, comunitario') }}</option>
-      <option value="2" type="text">{{ _('Sí, privado') }}</option>
+      <option value="1" type="text">{{ _('Sí') }}</option>
     </select>
     <span class="select-info">{{ _('Tasa') }}: <span id="select-parking-tax"></span></span>
   </div>
@@ -91,16 +81,13 @@
       return [333.91, 754.22, 1266.23, 1732.10][$("#select-house").val()];
     }
     function getVehicleTaxPaid() {
-      return [0, 68.16, 143.88][$("#select-vehicle").val()];
+      return [0, 64.45, 136.05][$("#select-vehicle").val()];
     }
     function getExtraVehicleTaxPaid() {
-      return [0, 68.16, 143.88][$("#select-extra-vehicle").val()];
-    }
-    function getGarbageTaxPaid() {
-      return [112.50, 115.09, 109.86, 94.18][$("#select-garbage").val()];
+      return [0, 64.45, 136.05][$("#select-extra-vehicle").val()];
     }
     function getParkingTaxPaid() {
-      return [0, 24.96, 163.52][$("#select-parking").val()];
+      return [0, 57.00][$("#select-parking").val()];
     }
 
     function redrawGrid() {
@@ -113,13 +100,10 @@
       var extraVehicleTaxPaid = getExtraVehicleTaxPaid();
       $('#select-extra-vehicle-tax').text(formatTaxAmount(extraVehicleTaxPaid));
 
-      var garbageTaxPaid = getGarbageTaxPaid();
-      $('#select-garbage-tax').text(formatTaxAmount(garbageTaxPaid));
-
       var parkingTaxPaid = getParkingTaxPaid();
       $('#select-parking-tax').text(formatTaxAmount(parkingTaxPaid));
 
-      totalTaxPaid = houseTaxPaid + vehicleTaxPaid + extraVehicleTaxPaid + garbageTaxPaid + parkingTaxPaid;
+      totalTaxPaid = houseTaxPaid + vehicleTaxPaid + extraVehicleTaxPaid + parkingTaxPaid;
       $("#tax-amount-paid").text(formatTaxAmount(totalTaxPaid));
       // XXX: window.location.hash = 'ingresos='+getIncomeInEuros();
 
@@ -141,7 +125,6 @@
       $('#select-house').val(house);
       $('#select-vehicle').val(vehicle);
       $('#select-extra-vehicle').val(extraVehicle);
-      $('#select-garbage').val(garbage);
       $('#select-parking').val(parking);
     }
     $("#scenario-1").click(function() { setStatus(0, 1, 2, 0, 0); redrawGrid(); return false; });
