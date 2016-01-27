@@ -40,7 +40,7 @@ class LavallduixoBudgetLoader(SimpleBudgetLoader):
                 'ic_code': '100',
                 'item_number': self.clean(line[3])[-2:],    # Last two digits
                 'description': line[0],
-                'amount': self._parse_amount(line[6 if is_actual else 4])
+                'amount': self._parse_amount(line[7 if is_actual else 4])
             }
 
         else:
@@ -51,7 +51,7 @@ class LavallduixoBudgetLoader(SimpleBudgetLoader):
                 'ic_code': '100',                           # All income goes to the root node
                 'item_number': self.clean(line[1])[-2:],    # Last two digits
                 'description': line[2],
-                'amount': self._parse_amount(line[5 if is_actual else 3])
+                'amount': self._parse_amount(line[6 if is_actual else 3])
             }
 
     # We don't have an institutional breakdown in Torrelodones, so we create just a catch-all organism.
