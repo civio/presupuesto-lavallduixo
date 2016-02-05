@@ -621,3 +621,7 @@ msgstr "Altres"
 
 msgid "a día de hoy"
 msgstr "a dia d'avui"
+
+msgid "WELCOME_TITLE"
+msgstr "A què destina el pressupost de l'Ajuntament de la Vall d'Uixó?"
+
