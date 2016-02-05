@@ -76,7 +76,7 @@ msgstr "Còm es reparteix?"
 
 #: templates/budgets/budgets_intro.html:12
 msgid "La totalidad del dinero recaudado por el Ayuntamiento se destina al presupuesto municipal que requiere de otros ingresos provenientes, principalmente, de la Generalitat y la Administración General del Estado para formar el presupuesto de ingresos municipal."
-msgstr "La totalitat dels diners recaptats per l'Ajuntament es destinen al pressupost municipal que requereix d'altres ingressos provinents, principalment, de l'Administració General de l'Estat  i de la Generalitat de Catalunya per formar el pressupost d'ingressos municipal."
+msgstr "La totalitat dels diners recaptats per l'Ajuntament es destinen al pressupost municipal que requereix d'altres ingressos provinents, principalment, de l'Administració General de l'Estat  i de la Generalitat Valenciana per formar el pressupost d'ingressos municipal."
 
 #: templates/budgets/budgets_intro.html:17
 msgid "¿En qué se emplea?"

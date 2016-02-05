@@ -72,6 +72,9 @@ msgid ""
 "la ciudadanía paga impuestos al Estado y a la Generalitat de Cataluña a través de los impuestos directos - como el IRPF y el impuesto de "
 "sociedades- y de impuestos indirectos -IVA e impuestos sobre el tabaco, el alcohol o la gasolina."
 msgstr ""
+"La recaudación de impuestos locales se realiza a través de impuestos directos, principalmente el IBI, y de tasas y precios públicos. Por otro lado "
+"la ciudadanía paga impuestos al Estado y a la Generalitat Valenciana a través de los impuestos directos - como el IRPF y el impuesto de "
+"sociedades- y de impuestos indirectos -IVA e impuestos sobre el tabaco, el alcohol o la gasolina."
 
 #: templates/budgets/budgets_intro.html:11
 msgid "¿Cómo se reparte?"
