@@ -60,37 +60,37 @@
 2,2,1,0,Altres prestacions econòmiques a favor d'empleats
 2,3,0,0,Serveis socials i promoció social
 2,3,1,0,Acció social
-2,3,1,1,
-2,3,1,2,
-2,3,1,3,
-2,3,2,1,
-2,3,2,2,
-2,3,2,4,
-2,3,3,0,
-2,3,3,1,
-2,3,3,2,
-2,3,3,5,
-2,3,3,6,
-2,3,3,7,
-2,3,3,9,
+2,3,1,1,Informació i assessorament
+2,3,1,2,Emergència social
+2,3,1,3,Convivència
+2,3,2,1,Prevenció i inserció social
+2,3,2,2,Cooperació social
+2,3,2,4,Associacions socials
+2,3,3,0,Rehabilitació del centre Alzheimer Salome Moliner
+2,3,3,1,Associació dany cerebral sobrevingut - conveni
+2,3,3,2,Teleassistència
+2,3,3,5,transport adaptat
+2,3,3,6,Conveni centre de dia d'Alzheimer
+2,3,3,7,CRIS
+2,3,3,9,Fundació d'Alzheimer Salomé Moliner
 2,4,1,0,Promoció de l'ocupació
-2,4,1,1,
-2,4,1,2,
-2,4,1,3,
-2,4,1,4,
-2,4,1,5,
+2,4,1,1,Programa d'orientació laboral
+2,4,1,2,Formació professional
+2,4,1,3,Tallers
+2,4,1,4,Una altra formació per a l'ocupació
+2,4,1,5,Obres i serveis d'interès General o social
 3,1,1,0,Salut pública
 3,1,2,0,"Hospitals, serveis assistencials i centres de salut"
 3,1,3,0,Sanitat y consum
 3,2,0,0,Administració general de l'educació
 3,2,1,0,Educació infantil i primària
-3,2,3,1,
+3,2,3,1,Educació permanent adults
 3,3,0,0,Administració general de la cultura
 3,3,2,0,Biblioteques i arxius
 3,3,2,1,Biblioteques
 3,3,3,0,Museus
 3,3,4,0,Promoció cultural
-3,3,5,0,
+3,3,5,0,Arts escèniques
 3,3,6,0,Protecció i gestió del Patrimoni Històric-Artístic
 3,3,8,0,Festes populars
 3,4,0,0,Administració general de l'esport
@@ -107,7 +107,7 @@
 4,8,5,0,Convenis
 9,1,2,0,Òrgans de govern
 9,2,0,0,Administració general
-9,2,0,1,
+9,2,0,1,Jutjat Pau
 9,2,4,0,Participació ciutadana i suport a les entitats
 9,2,4,1,Infraestructures i suport a les entitats
 9,2,4,2,Cooperació internacional
