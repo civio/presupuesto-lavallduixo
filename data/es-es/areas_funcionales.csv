@@ -43,11 +43,10 @@
 1,5,1,0,Urbanismo
 1,5,2,1,Vivienda
 1,5,3,0,Vías públicas
-1,5,3,2,
-1,5,3,3,
-1,5,3,4,
-1,5,4,0,
-1,5,5,0,
+1,5,3,2,Otras inversiones
+1,5,3,3,Sueldos e infraestructuras
+1,5,3,4,Reparac.conserv.vías rústicas
+1,5,4,0,Adquisición vehículo
 1,6,1,0,Saneamiento y abastecimiento de agua
 1,6,2,0,"Recogida, gestión y tratamiento de residuos"
 1,6,2,1,Recogida de residuos
@@ -60,37 +59,24 @@
 2,2,1,0,Otras prestaciones económicas a favor de empleados
 2,3,0,0,Servicios sociales y promoción social
 2,3,1,0,Acción social
-2,3,1,1,
-2,3,1,2,
-2,3,1,3,
-2,3,2,1,
-2,3,2,2,
-2,3,2,4,
-2,3,3,0,
-2,3,3,1,
-2,3,3,2,
-2,3,3,5,
-2,3,3,6,
-2,3,3,7,
-2,3,3,9,
+2,3,2,4,Convenio J. L. Asoci.Española contra el Cáncer
+2,3,3,0,Rehabilitac. Centro Alzheimer Salomé Moliner
+2,3,3,9,Convenio Transp.adap.Fund.Alzheimer Salomé Moliner
 2,4,1,0,Fomento del empleo
-2,4,1,1,
-2,4,1,2,
-2,4,1,3,
-2,4,1,4,
-2,4,1,5,
+2,4,1,1,Promocion de la ocupacion
+2,4,1,3,Programa de orientacion laboral
+2,4,1,4,Talleres
 3,1,1,0,Salud pública
 3,1,2,0,"Hospitales, servicios asistenciales y centros de salud"
 3,1,3,0,Sanidad y consumo
 3,2,0,0,Administración general de la educación
 3,2,1,0,Educación infantil y primaria
-3,2,3,1,
 3,3,0,0,Administración general de la cultura
 3,3,2,0,Bibliotecas y archivos
 3,3,2,1,Bibliotecas
 3,3,3,0,Museos
 3,3,4,0,Promoción cultural
-3,3,5,0,
+3,3,5,0,Otros contratos servicios :Centro Polifin.
 3,3,6,0,Protección y gestión del Patrimonio Histórico-Artístico
 3,3,8,0,Fiestas populares
 3,4,0,0,Administración general del deporte
@@ -107,7 +93,7 @@
 4,8,5,0,Convenios
 9,1,2,0,Órganos de gobierno
 9,2,0,0,Administración general
-9,2,0,1,
+9,2,0,1,Juzgado de Paz
 9,2,4,0,Participación ciudadana y soporte a las entidades
 9,2,4,1,Infraestructuras y soporte a las entidades
 9,2,4,2,Cooperación internacional
