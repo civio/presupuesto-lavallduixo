@@ -17,7 +17,23 @@ class LavallduixoBudgetLoader(SimpleBudgetLoader):
         # mapping to be constant over time, we are forced to amend budget data prior to 2015.
         # See https://github.com/dcabo/presupuestos-aragon/wiki/La-clasificaci%C3%B3n-funcional-en-las-Entidades-Locales
         programme_mapping = {
-            # '1533': '1530',     # Vías públicas
+            '1340': '1350',     # Protección civil
+            '1530': '1521',
+            '1550': '1533',
+            '1620': '1621',
+            '2311': '3340',
+            '2331': '2311',
+            '2332': '3120',
+            '2335': '2310',
+            '2336': '2311',
+            '2337': '2311',
+            '2312': '2310',
+            '2313': '2310',
+            '2321': '2310',
+            '2322': '2311',
+            '2412': '2411',
+            '2415': '2410',
+            '3231': '3200',
         }
 
         is_expense = (filename.find('gastos.csv')!=-1)
@@ -27,10 +43,8 @@ class LavallduixoBudgetLoader(SimpleBudgetLoader):
 
             # For years before 2015 we check whether we need to amend the programme code
             year = re.search('municipio/(\d+)/', filename).group(1)
-            if year in ['2011', '2012', '2013', '2014']:
-                new_programme = programme_mapping.get(fc_code)
-                if new_programme:
-                    fc_code = new_programme
+            if int(year) < 2015:
+                fc_code = programme_mapping.get(fc_code[:4], fc_code)
 
             return {
                 'is_expense': True,

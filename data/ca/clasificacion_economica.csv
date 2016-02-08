@@ -524,15 +524,15 @@ G,9,4,1,Devolució de fiances
 # Conceptos específicos de La Vall d'Uixo
 I,4,8,0,De famílies e institucions sense fins de lucre
 I,5,2,0,Interessos de dipòsits
-G,4,7,3,
-G,4,7,4,
+G,4,7,3,Grupo Vermon S.L.
+G,4,7,4,Heliotec 2006 S.L.
 G,4,8,0,A famílies e institucions sense fins de lucre
-G,4,8,1,
-G,4,8,2,
-G,4,8,3,
-G,4,8,4,
-G,4,8,5,
-G,4,8,6,
-G,4,8,9,
-G,7,8,2,
-G,7,8,9,
+G,4,8,1,"Premis, beques permisos estudis i investigació"
+G,4,8,2,Fundacions i institucions sense ànim de lucre
+G,4,8,3,Entitats socials i tercera edat
+G,4,8,4,Entitats esportives
+G,4,8,5,Entitats culturals i educatives
+G,4,8,6,Entitats festives
+G,4,8,9,Altres subvencions
+G,7,8,2,Subvencion Creu Roja
+G,7,8,9,Altres subvencions de capital
