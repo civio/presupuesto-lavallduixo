@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Donde van mis impuestos\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-19 11:38+0200\n"
-"PO-Revision-Date: 2015-09-08 20:17+0100\n"
+"PO-Revision-Date: 2016-02-09 17:28+0100\n"
 "Last-Translator: David Cabo <david@civio.es>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/donde-van-mis-impuestos/language/ca/)\n"
 "Language: ca\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: templates/budgets/budgets_indicators.html:1
 msgid "Indicadores presupuestarios en"
@@ -96,8 +96,8 @@ msgstr "Dades pressupostàries"
 
 #: templates/shared/data_sources.html:7 templates/shared/footer.html:15
 #: templates/shared/header.html:6 templates/shared/meta.html:3
-msgid "Ayuntamiento de Rubí"
-msgstr "Ajuntament de Rubí"
+msgid "Ayuntamiento de La Vall d'Uixo"
+msgstr "Ajuntament de La Vall d'Uixo"
 
 msgid "Datos de ejecución presupuestaria"
 msgstr "Dades d'execució pressupostària"
@@ -111,16 +111,16 @@ msgid "Instituto Nacional de Estadística (INE)"
 msgstr "Institut Nacional d'Estadística (INE)"
 
 #: templates/shared/data_sources.html:10
-msgid "Datos de inflación (Medias anuales de IPC para Cataluña)"
-msgstr "Dades d'inflació (mitjanes anuals d'IPC per a Catalunya)"
+msgid "Datos de inflación (Medias anuales de IPC para la Comunidad Valenciana)"
+msgstr "Dades d'inflació (mitjanes anuals d'IPC a la Comunitat Valenciana)"
 
 #: templates/shared/data_sources.html:13
 msgid "Nota"
 msgstr "Nota"
 
 #: templates/shared/data_sources.html:15
-msgid "Los ingresos y gastos mostrados incluyen únicamente al Ayuntamiento de Rubí"
-msgstr "Els ingressos i despeses mostrades inclouen únicament l'Ajuntament de Rubí"
+msgid "Los ingresos y gastos mostrados incluyen únicamente al Ayuntamiento de La Vall d'Uixo"
+msgstr "Els ingressos i despeses mostrades inclouen únicament l'Ajuntament de La Vall d'Uixo"
 
 #: templates/shared/data_sources.html:16
 msgid "El ajuste de la inflación se realiza a <b>1 de enero de"
@@ -418,7 +418,6 @@ msgstr "Despeses"
 msgid "Gastos (por programa)"
 msgstr "Despeses (per programa)"
 
-
 msgid "Cantidades"
 msgstr "Quantitats"
 
@@ -624,4 +623,3 @@ msgstr "a dia d'avui"
 
 msgid "WELCOME_TITLE"
 msgstr "A què destina el pressupost de l'Ajuntament de la Vall d'Uixó?"
-
