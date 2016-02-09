@@ -17,23 +17,35 @@ class LavallduixoBudgetLoader(SimpleBudgetLoader):
         # mapping to be constant over time, we are forced to amend budget data prior to 2015.
         # See https://github.com/dcabo/presupuestos-aragon/wiki/La-clasificaci%C3%B3n-funcional-en-las-Entidades-Locales
         programme_mapping = {
-            '1340': '1350',     # Protección civil
-            '1530': '1521',
-            '1550': '1533',
-            '1620': '1621',
-            '2311': '3340',
-            '2331': '2311',
-            '2332': '3120',
-            '2335': '2310',
-            '2336': '2311',
-            '2337': '2311',
-            '2312': '2310',
-            '2313': '2310',
-            '2321': '2310',
+            '1340': '1360',     # Prevención de incendios
+            '1530': '1521',     # Vivienda
+            '1540': '1533',     # Vías públicas
+            '1550': '1533',     # Vías públicas
+            '1620': '1621',     # Recogida de residuos
+            '2300': '2310',     # Acción social
+            '2311': '2310',     # Acción social
+            '2331': '2310',     # Acción social
+            '2332': '2310',     # Acción social
+            '2335': '2310',     # Acción social
+            '2336': '2310',     # Acción social
+            '2337': '2310',     # Acción social
+            '2339': '2310',     # Acción social
+            '2399': '2310',     # Acción social
+            '2312': '2310',     # Acción social
+            '2313': '2310',     # Acción social
+            '2321': '2311',
             '2322': '2311',
-            '2412': '2411',
-            '2415': '2410',
-            '3231': '3200',
+            '2324': '2311',
+            '2330': '2311',
+            '2411': '2410',     # Fomento del empleo
+            '2412': '2410',     # Fomento del empleo
+            '2414': '2410',     # Fomento del empleo
+            '2415': '2410',     # Fomento del empleo
+            '3231': '3200',     # Educación
+            '3320': '3321',     # Bibliotecas y archivos
+            '4310': '4300',     # Comercio
+            '9240': '9241',     # Participación ciudadana
+            '9241': '9242',     # Juventud
         }
 
         is_expense = (filename.find('gastos.csv')!=-1)
