@@ -8,7 +8,7 @@ MAIN_ENTITY_NAME = 'La Vall d\'Uixó'
 BUDGET_LOADER = 'LavallduixoBudgetLoader'
 PAYMENTS_LOADER = 'LavallduixoPaymentsLoader'
 
-FEATURED_PROGRAMMES = ['1710', '1521', '1650']
+FEATURED_PROGRAMMES = ['1710', '1521', '1650', '1330', '1630', '1621', '4320']
 
 OVERVIEW_INCOME_NODES = [['11', '113'], '13', '42', '43', '30', '33']
 OVERVIEW_EXPENSE_NODES = ['23', '92', '13', '16', '15', '01', '33', '32', '44', '17']
