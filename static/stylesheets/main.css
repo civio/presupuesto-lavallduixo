@@ -7008,16 +7008,7 @@ header[role="banner"] > .container-fluid .open-data-logo:hover {
   }
   #main-menu ul li {
     border: none;
-    width: 18%;
-  }
-  #main-menu ul li.page-payments {
-    width: 24%;
-  }
-  #main-menu ul li.page-tax {
-    width: 21%;
-  }
-  #main-menu ul li.page-glossary {
-    width: 19%;
+    width: 33.33%;
   }
   #main-menu ul li [class*="icon-"]:before {
     position: relative;
