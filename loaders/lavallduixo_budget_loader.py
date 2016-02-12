@@ -26,17 +26,15 @@ class LavallduixoBudgetLoader(SimpleBudgetLoader):
             '2311': '2310',     # Acción social
             '2331': '2310',     # Acción social
             '2332': '2310',     # Acción social
-            '2335': '2310',     # Acción social
             '2336': '2310',     # Acción social
-            '2337': '2310',     # Acción social
             '2339': '2310',     # Acción social
             '2399': '2310',     # Acción social
             '2312': '2310',     # Acción social
             '2313': '2310',     # Acción social
-            '2321': '2311',
-            '2322': '2311',
-            '2324': '2311',
-            '2330': '2311',
+            '2321': '2310',
+            '2322': '2310',
+            '2324': '2310',
+            '2330': '2310',
             '2411': '2410',     # Fomento del empleo
             '2412': '2410',     # Fomento del empleo
             '2414': '2410',     # Fomento del empleo
@@ -48,15 +46,43 @@ class LavallduixoBudgetLoader(SimpleBudgetLoader):
             '9241': '9242',     # Juventud
         }
 
+        # In 2015 we have to amend some subprogramme codes for a couple of policies with
+        # a big number of children.
+        programme_mapping_after_2015 = {
+            '23109': '2335',    # Hogar Sagrada Familia
+            '23110': '2337',    # CRIS
+            '23111': '2310',    # Acción social
+            '23112': '2310',    # Acción social
+            '23113': '2310',    # Acción social
+            '23114': '2310',    # Acción social
+            '23115': '2310',    # Acción social
+            '23116': '2310',    # Acción social
+            '23117': '2310',    # Acción social
+            '23118': '2310',    # Acción social
+            '23119': '2310',    # Acción social
+            '23120': '2310',    # Acción social
+            '23121': '2310',    # Acción social
+            '23122': '2310',    # Acción social
+            '23123': '2310',    # Acción social
+            '23124': '2310',    # Acción social
+            '23125': '2310',    # Acción social
+            '23126': '2310',    # Acción social
+            '23127': '2310',    # Acción social
+            '23128': '2310',    # Acción social
+        }
+
         is_expense = (filename.find('gastos.csv')!=-1)
         is_actual = (filename.find('/ejecucion_')!=-1)
         if is_expense:
-            fc_code = self.clean(line[2]).ljust(4,'0')  # Fill with zeroes on the right if needed
+            fc_code = self.clean(line[2]).ljust(5, '0')  # Fill with zeroes on the right if needed
 
-            # For years before 2015 we check whether we need to amend the programme code
+            # We check whether we need to amend the programme code
             year = re.search('municipio/(\d+)/', filename).group(1)
             if int(year) < 2015:
                 fc_code = programme_mapping.get(fc_code[:4], fc_code)
+            else:
+                fc_code = programme_mapping_after_2015.get(fc_code, fc_code)
+
 
             return {
                 'is_expense': True,
