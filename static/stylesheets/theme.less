@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .form-search{
+  background: mix( @color-base, @black60, 5% );
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -52,6 +53,18 @@ a:hover,
 .header-logo img {vertical-align: middle; margin-left: 5px;}
 @media screen and (min-width: 48em) {
   .header-logo {clear: both; float: right; margin: 0;}
+}
+
+#main-menu{
+  background-color: @black30;
+
+  ul li > a{
+    background-color: @black30;
+
+    &:hover{
+      background-color: @black20;
+    }
+  }
 }
 
 .main-title {
@@ -103,7 +116,7 @@ a:hover,
 
 // Masthead
 header[role="banner"] {
-  background: #363636;
+  background: @color-base;
   margin: 0;
   text-align: center;
 
@@ -137,9 +150,10 @@ header[role="banner"] {
 }
 
 // Menu
-.main-menu-toggle{
+.main-menu-toggle,
+.main-menu-toggle.active{
   color: white;
-  background: @color-base;
+  background: @black30;
 }
 
 // Social menu
@@ -376,10 +390,10 @@ header[role="banner"] {
         height: 45px;
         line-height: 44px;
         padding: .5em 0;
-        border-right: 1px solid mix(@color-base, white, 50% );
+        border-right: 1px solid mix(@black20, white, 50% );
 
         &.icon-budget{
-          border-left: 1px solid mix(@color-base, white, 50% );
+          border-left: 1px solid mix(@black20, white, 50% );
         }
 
         &.icon-payments{
