@@ -6696,7 +6696,8 @@ h6 {
   box-shadow: none;
 }
 .form-search label {
-  color: white;
+  color: #333333;
+  font-weight: 300;
 }
 .form-search .container-fluid {
   padding: 12px 0;
@@ -7019,7 +7020,16 @@ header[role="banner"] > .container-fluid .open-data-logo:hover {
   }
   #main-menu ul li {
     border: none;
-    width: 33.33%;
+    width: 18%;
+  }
+  #main-menu ul li.page-payments {
+    width: 24%;
+  }
+  #main-menu ul li.page-tax {
+    width: 21%;
+  }
+  #main-menu ul li.page-glossary {
+    width: 19%;
   }
   #main-menu ul li [class*="icon-"]:before {
     position: relative;

@@ -18,7 +18,8 @@ h1, h2, h3, h4, h5, h6{
   box-shadow: none;
   
   label{
-    color: white;
+    color: @black20;
+    font-weight: 300;
   }
 
   .container-fluid{
@@ -377,7 +378,17 @@ header[role="banner"] {
     
     li{
       border: none;
-      width: 33.33%;
+      width: 18%;
+
+      &.page-payments{
+        width: 24%;
+      }
+      &.page-tax{
+        width: 21%;
+      }
+      &.page-glossary{
+        width: 19%;
+      }
 
       [class*="icon-"]:before {
         position: relative;
