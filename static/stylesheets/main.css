@@ -6978,7 +6978,7 @@ header[role="banner"] > .container-fluid .open-data-logo:hover {
 }
 .form-user-incomings select {
   height: 34px;
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 .form-user-incomings .select-info {
   float: right;

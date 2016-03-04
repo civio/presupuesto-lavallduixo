@@ -5,18 +5,19 @@
 
 <form class="form-user-incomings" action="#" method="get">
 
-  <p class="intro-text">{{ _('Puedes escoger el tipo de situación que mejor refleja tu realidad (<a href="#" id="scenario-1">piso pequeño en el casco antiguo</a>, <a href="#" id="scenario-2">piso de nueva construcción</a>, casa unifamiliar <a href="#" id="scenario-3">en el centro</a>, o <a href="#" id="scenario-4">en una urbanización</a>) o modificar cada uno de los elementos de forma independiente.')|safe }}</p>
-
   <div class="user-incomings-custom">
 
     <h4 style="text-align: center">{{ _('Impuestos') }}</h4>
-    <label for="select-house">{{ _('Inmueble') }}</label>
-    <select id="select-house">
-      <option value="0" type="text" selected="selected">{{ _('Piso de 80 m\u00B2 situado en la zona del mercado') }}</option>
-      <option value="1" type="text">{{ _('Piso de 110 m\u00B2 situado en el centro, nueva construcción') }}</option>
-      <option value="2" type="text">{{ _('Casa unifamiliar adosada en el centro del pueblo') }}</option>
-      <option value="3" type="text">{{ _('Casa unifamiliar aislada en urbanización') }}</option>
+    <label for="select-area">{{ _('Zona de residencia') }}</label>
+    <select id="select-area">
+      <option value="0" type="text" selected="selected">{{ _('Area 6') }}</option>
+      <option value="1" type="text">{{ _('Avenidas') }}</option>
+      <option value="2" type="text">{{ _('Barrios periféricos') }}</option>
+      <option value="3" type="text">{{ _('Casco') }}</option>
+      <option value="4" type="text">{{ _('Polígono III') }}</option>
+      <option value="5" type="text">{{ _('San José') }}</option>
     </select>
+    <select id="select-house"></select>
     <span class="select-info">{{ _('IBI') }}: <span id="select-house-tax"></span></span>
     
     <hr/>
@@ -77,8 +78,10 @@
       return numeral(value).format( '0,0.00', Math.floor ) + " €";
     }
 
+    // TODO!!! Add area / type
     function getHouseTaxPaid() {
-      return [333.91, 754.22, 1266.23, 1732.10][$("#select-house").val()];
+      var val = $("#select-house").val();
+      return val ? parseFloat(val) : 0;
     }
     function getVehicleTaxPaid() {
       return [0, 64.45, 136.05][$("#select-vehicle").val()];
@@ -91,6 +94,7 @@
     }
 
     function redrawGrid() {
+    
       var houseTaxPaid = getHouseTaxPaid();
       $('#select-house-tax').text(formatTaxAmount(houseTaxPaid));
 
@@ -140,8 +144,175 @@
     //   $('#ingresos').val(state['ingresos']);
     // }
 
-    $("select").change(redrawGrid);
-    redrawGrid();
+    var data_tax_home = {
+      "0": [
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":642,
+          "debt":2657.8
+        }
+      ],
+      "1": [
+        {
+          "type":'{{ _("Piso seminuevo") }}',
+          "surface":147,
+          "debt":669.91
+        },
+        {
+          "type":'{{ _("Piso viejo") }}',
+          "surface":122,
+          "debt":412.05
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":245,
+          "debt":1009.81
+        },
+        {
+          "type":'{{ _("Unifamiliar seminueva") }}',
+          "surface":431,
+          "debt":1909.89
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":174,
+          "debt":477.25
+        }    
+      ],
+      "2": [
+        {
+          "type":'{{ _("Piso nuevo") }}',
+          "surface":153,
+          "debt":549.6
+        },
+        {
+          "type":'{{ _("Piso viejo") }}',
+          "surface":77,
+          "debt":202.89
+        },
+        {
+          "type":'{{ _("Piso viejo") }}',
+          "surface":91,
+          "debt":233.31
+        },
+        {
+          "type":'{{ _("Piso viejo") }}',
+          "surface":147,
+          "debt":453.22
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":250,
+          "debt":1167.17
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":380,
+          "debt":1380.53
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":92,
+          "debt":220.54
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":148,
+          "debt":453.97
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":248,
+          "debt":654.59
+        },
+      ],
+      "3": [
+        {
+          "type":'{{ _("Piso nuevo") }}',
+          "surface":112,
+          "debt":443.93
+        },
+        {
+          "type":'{{ _("Piso nuevo") }}',
+          "surface":158,
+          "debt":627.65
+        },
+        {
+          "type":'{{ _("Piso viejo") }}',
+          "surface":94,
+          "debt":260.97
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":210,
+          "debt":891.42
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":438,
+          "debt":1591.6
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":152,
+          "debt":303.44
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":164,
+          "debt":401.53
+        }
+      ],
+      "4": [
+        {
+          "type":'{{ _("Piso nuevo") }}',
+          "surface":200,
+          "debt":825.97
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":500,
+          "debt":2994.99
+        }
+      ],
+      "5": [
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":193,
+          "debt":742.85
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":448,
+          "debt":2702.73
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":77,
+          "debt":663.67
+        },
+        {
+          "type": '{{ _("Unifamiliar vieja") }}',
+          "surface":363,
+          "debt":1389.31
+        },
+      ]
+    };
+
+    $("#select-area").change(function(){
+      var $select = $('#select-house').empty();
+      var data = data_tax_home[ $(this).val() ];
+      data.forEach(function (d, i) {
+        $select.append($('<option>', { 
+          value: d.debt,
+          text : d.type+' de '+d.surface+' m²'
+        }));
+      });
+      redrawGrid();
+    });
+
+    $("select:not(#select-area)").change(redrawGrid);
+    $("#select-area").trigger('change');
   })
 </script>
 {% endblock %}

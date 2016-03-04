@@ -528,18 +528,6 @@ msgstr "Pots escollir el tipus de situació que millor reflecteix la teva realit
 msgid "Inmueble"
 msgstr "Immoble"
 
-msgid "Piso de 80 m² situado en la zona del mercado"
-msgstr "Pis de 80 m² situat a la zona del mercat"
-
-msgid "Piso de 110 m² situado en el centro, nueva construcción"
-msgstr "Pis de 110 m² situat a la centre, nova construcció"
-
-msgid "Casa unifamiliar adosada en el centro del pueblo"
-msgstr "Casa unifamiliar entre mitjeres centre poble"
-
-msgid "Casa unifamiliar aislada en urbanización"
-msgstr "Casa unifamiliar aillada urbanització"
-
 msgid "IBI + Tasa de basuras"
 msgstr "IBI + taxa d’escombraries"
 
@@ -623,3 +611,21 @@ msgstr "a dia d'avui"
 
 msgid "WELCOME_TITLE"
 msgstr "A què destina el pressupost de l'Ajuntament de la Vall d'Uixó?"
+
+msgid "Piso nuevo"
+msgstr "Pis nou"
+
+msgid "Piso seminuevo"
+msgstr "Pis seminou"
+
+msgid "Piso viejo"
+msgstr "Pis vell"
+
+msgid "Unifamiliar nueva"
+msgstr "Unifamiliar nova"
+
+msgid "Unifamiliar seminueva"
+msgstr "Unifamiliar seminova"
+
+msgid "Unifamiliar vieja"
+msgstr "Unifamiliar vella"
