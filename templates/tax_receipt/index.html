@@ -119,8 +119,8 @@
           formatter: calculatePersonalTax, 
           headerCssClass: 'slick-header-right',
           getter: getBreakdownValue, 
-          column: '{{ latest_budget.name() }}',
-          year: breakdown.years['{{ latest_budget.name() }}']
+          column: "{{ latest_budget.name()|safe }}",
+          year: breakdown.years["{{ latest_budget.name()|safe }}"]
         }
       ]);
     }
