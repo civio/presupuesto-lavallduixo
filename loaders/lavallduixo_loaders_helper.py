@@ -59,6 +59,7 @@ def get_programme_id(fc_code, year):
         '23126': '2310',    # Acción social
         '23127': '2310',    # Acción social
         '23128': '2310',    # Acción social
+        '31400': '3130',    # Sanitat i consum (only in payments)
     }
 
     if year < 2015:

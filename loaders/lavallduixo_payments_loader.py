@@ -20,8 +20,10 @@ class LavallduixoPaymentsLoader(PaymentsLoader):
         # Year, ?, ?, programme, economic concept.
         item_fields = line[1].split('/')
 
-        # The programme id needs to be mapped, because of changing legislation
-        programme_id = get_programme_id(item_fields[3], budget.year)[:4]
+        # The programme id needs to be mapped, because of changing legislation.
+        # But beware, some items are payed the year after, so we need to pick the right year
+        # from the payment description, not from the budget itself.
+        programme_id = get_programme_id(item_fields[3].ljust(5, '0'), int(item_fields[0]))[:4]
 
         # But what we want as area is the programme description
         programme = Budget.objects.get_all_descriptions(budget.entity)['functional'][programme_id]
