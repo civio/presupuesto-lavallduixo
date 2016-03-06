@@ -24,7 +24,7 @@ SHOW_INSTITUTIONAL_TAB = False
 #SHOW_ACTUAL = True
 
 # Include financial income/expenditures in overview and global policy breakdowns. Default: False.
-INCLUDE_FINANCIAL_CHAPTERS_IN_BREAKDOWNS = True
+INCLUDE_FINANCIAL_CHAPTERS_IN_BREAKDOWNS = False
 
 # Search in entity names. Default: True.
 SEARCH_ENTITIES = False
