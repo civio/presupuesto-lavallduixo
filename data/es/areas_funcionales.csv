@@ -54,6 +54,11 @@
 2,1,1,0,Pensiones
 2,2,1,0,Otras prestaciones económicas a favor de empleados
 2,3,1,0,Acción social
+2,3,1,2,Prestaciones Económicas Individuales (PEI)
+2,3,1,3,Renta Garantizada
+2,3,1,4,Ayuda a domicilio
+2,3,1,5,Universidad Popular
+2,3,1,8,Inmigración
 2,3,3,5,Hogar Sagrada Familia
 2,3,3,7,Centro de Rehabilitación e Integración Social (CRIS)
 2,4,1,0,Fomento del empleo
