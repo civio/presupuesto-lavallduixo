@@ -72,7 +72,7 @@ msgstr "La recaptació d'impostos locals es realitza a través d'impostos direct
 
 #: templates/budgets/budgets_intro.html:11
 msgid "¿Cómo se reparte?"
-msgstr "Còm es reparteix?"
+msgstr "Com es reparteix?"
 
 #: templates/budgets/budgets_intro.html:12
 msgid "La totalidad del dinero recaudado por el Ayuntamiento se destina al presupuesto municipal que requiere de otros ingresos provenientes, principalmente, de la Generalitat y la Administración General del Estado para formar el presupuesto de ingresos municipal."
