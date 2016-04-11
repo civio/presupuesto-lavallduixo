@@ -496,7 +496,7 @@ msgstr "Despeses totals"
 
 #: templates/payments/index.html:5
 msgid "Gastos del año vigente"
-msgstr "Despeses de l'any en curs efectuades segons l'execució pressupostària que és actualitzada diàriament."
+msgstr "Despeses de l'any en curs efectuades segons l'execució pressupostària que és actualitzada trimestralment."
 
 msgid "Se incluyen únicamente los gastos e ingresos no financieros, es decir, capítulos I al VII."
 msgstr "S'inclouen únicament els ingressos i despeses no financers, és a dir, capítols I al VII."

@@ -241,7 +241,7 @@ msgstr "Presupuestos del Ayuntamiento de Rubí"
 
 #: templates/payments/index.html:5
 msgid "Gastos del año vigente"
-msgstr "Gastos del año vigente efectuados según la ejecución presupuestaria que es actualizada diariamente."
+msgstr "Gastos del año vigente efectuados según la ejecución presupuestaria que es actualizada trimestralmente."
 
 msgid "Inversiones y pagos"
 msgstr "Gastos y pagos"
