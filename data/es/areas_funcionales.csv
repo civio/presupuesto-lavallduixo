@@ -39,6 +39,7 @@
 1,3,3,0,Ordenación del tráfico y del estacionamiento
 1,3,5,0,Protección civil
 1,3,6,0,Servicio de prevención y extinción de incendios
+1,5,0,0,Administración de urbanismo
 1,5,1,0,Urbanismo
 1,5,2,1,Vivienda
 1,5,3,2,Otras inversiones
@@ -51,6 +52,7 @@
 1,6,5,0,Alumbrado público
 1,7,0,0,Medio ambiente
 1,7,1,0,Parques y jardines
+1,7,2,2,Vertedero Garrut
 2,1,1,0,Pensiones
 2,2,1,0,Otras prestaciones económicas a favor de empleados
 2,3,1,0,Acción social
@@ -59,6 +61,7 @@
 2,3,1,4,Ayuda a domicilio
 2,3,1,5,Universidad Popular
 2,3,1,8,Inmigración
+2,3,2,1,Drogodependencia
 2,3,3,5,Hogar Sagrada Familia
 2,3,3,7,Centro de Rehabilitación e Integración Social (CRIS)
 2,4,1,0,Fomento del empleo
@@ -69,6 +72,7 @@
 3,1,3,0,Sanidad y consumo
 3,2,0,0,Administración general de la educación
 3,2,1,0,Educación infantil y primaria
+3,2,6,0,Escuela laboral Carbonaire
 3,3,0,0,Administración general de la cultura
 3,3,2,1,Bibliotecas y archivos
 3,3,4,0,Promoción cultural
@@ -85,11 +89,13 @@
 4,3,2,0,Turismo
 4,3,3,0,Desarrollo empresarial
 4,4,2,0,Servicio de transporte
+4,6,2,0,Innovación
 9,1,2,0,Órganos de gobierno
 9,2,0,0,Administración general
 9,2,0,1,Juzgado de Paz
 9,2,4,1,Participación ciudadana
 9,2,4,2,Juventud
+9,2,4,3,Infancia
 9,3,1,0,Política económica y fiscal
 9,3,2,0,Gestión del sistema tributario
 9,3,3,0,Gestión del patrimonio

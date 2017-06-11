@@ -1,0 +1,572 @@
+#DENOMINACIÓN,ORGÁNICA,PROGRAMAS,ECONÓMICA,CRÉDITOS INICIALES,MODIFICACIONES,CRÉDITOS DEFINITIVOS,OBLIGACIONES RECONOCIDAS
+Sueldos grupo A1: Seg. y Orden Público,0101,132,12000,17148.74,-313.0,16835.74,18730.86
+Sueldos grupo A2: Seg. y Orden Público,0101,132,12001,58640.5,-13454.0,45186.5,52948.24
+Sueldos grupo C1: Seg. y Orden Público,0101,132,12003,541014.22,0.0,541014.22,569840.0
+Sueldos grupo C2: Seg. y Orden Público,0101,132,12004,18809.0,0.0,18809.0,10011.66
+Trienios: Seg. y Orden Público,0101,132,12006,94349.4,0.0,94349.4,93773.13
+Complemento de destino: Seg. y Orden Público,0101,132,12100,316998.38,-1800.0,315198.38,339271.42
+Complemento específico: Seg. y orden público,0101,132,12101,771884.43,-6800.0,765084.43,713907.75
+Productividad: Seg. y Orden Público,0101,132,150,8000.0,-7796.0,204.0,200.0
+Gratificaciones: Seg. y Orden Público,0101,132,151,45000.0,37961.71,82961.71,71219.82
+Aportación Consorcio Prov.Serv.Prev.Incendios,0101,136,467,189372.86,0.0,189372.86,189372.86
+Sueldos grupo A1: Urbanismo,0101,151,12000,83212.27,10400.0,93612.27,88907.95
+Sueldos grupo A2: Urbanismo,0101,151,12001,72243.22,0.0,72243.22,74600.62
+Sueldos grupo C1: Urbanismo,0101,151,12003,34093.29,0.0,34093.29,36097.52
+Sueldos grupo C2: Urbanismo,0101,151,12004,28435.71,870.0,29305.71,31193.33
+Sueldos grupo E: Urbanismo,0101,151,12005,8425.91,0.0,8425.91,8652.28
+Trienios: Urbanismo,0101,151,12006,35667.5,0.0,35667.5,35927.75
+Complemento de destino: Urbanismo,0101,151,12100,118158.02,2800.0,120958.02,123684.67
+Complemento específico: Urbanismo,0101,151,12101,230581.54,0.0,230581.54,225817.79
+Productividad: Urbanismo,0101,151,150,3000.0,664.6,3664.6,4270.69
+Gratificaciones: Urbanismo,0101,151,151,0.0,0.0,0.0,81.12
+Sueldos grupo A2: Acceso a la vivienda,0101,1521,12001,14264.3,0.0,14264.3,15381.66
+Trienios: Infovivienda,0101,1521,12006,421.41,0.0,421.41,421.44
+Complemento de destino: Acceso a la vivienda,0101,1521,12100,7064.99,0.0,7064.99,7065.0
+Complemento específico: Acceso a la vivienda,0101,1521,12101,14185.11,0.0,14185.11,14185.08
+Pers.lab.temporal: Acceso a la vivienda,0101,1521,131,0.0,0.0,0.0,0.0
+Sueldos grupo C1: Vías Públicas,0101,1533,12003,11453.45,0.0,11453.45,12625.89
+Sueldos gurpo C2: Vias Públicas,0101,1533,12004,123879.03,-1500.0,122379.03,106929.28
+Sueldos grupo E: Vías Públicas,0101,1533,12005,92657.79,0.0,92657.79,101385.29
+Trienios: Vías Públicas,0101,1533,12006,28330.75,272.4,28603.15,27614.11
+Complemento de destino: Vías Públicas,0101,1533,12100,109046.23,0.0,109046.23,102872.66
+Complemento específico: Vías Públicas,0101,1533,12101,255023.57,-1000.0,254023.57,223162.71
+Pers.lab.temporal: Vias Públicas,0101,1533,131,58635.48,2430.6,61066.08,63735.38
+Productividad: Vías Públicas,0101,1533,150,3000.0,1550.0,4550.0,25045.5
+Gratificaciones: Vías Públicas,0101,1533,151,12000.0,17285.05,29285.05,20936.91
+Gratificaciones: Saneam.alcantarillado agua,0101,161,151,3000.0,-2987.68,12.32,0.0
+Sueldos grupo E: Cementerio,0101,164,12005,25223.31,1860.0,27083.31,27087.22
+Trienios: Cementerio,0101,164,12006,826.28,0.0,826.28,802.99
+Complemento de destino: Cementerio,0101,164,12100,11090.16,0.0,11090.16,11090.52
+Complemento específico: Cementerio,0101,164,12101,33746.95,0.0,33746.95,33643.22
+Sueldos grupo A1: Medio Ambiente,0101,170,12000,16494.37,1830.0,18324.37,18141.12
+Sueldos grupo A2: Medio Ambiente,0101,170,12001,14417.92,0.0,14417.92,15574.81
+Sueldos grupo C2: Medio Ambiente,0101,170,12004,9259.85,1050.0,10309.85,9567.95
+Trienios: Medio Ambiente,0101,170,12006,4605.99,0.0,4605.99,4667.63
+Complemento de destino: Medio Ambiente,0101,170,12100,21938.53,0.0,21938.53,21878.52
+Complemento específico: Medio Ambiente,0101,170,12101,44046.18,0.0,44046.18,43744.83
+Acción social: Otras prestac.emp.públicos,0101,221,16204,30000.0,-9500.0,20500.0,20465.52
+Seguros: Otras prestac.ec.empleados,0101,221,16205,30000.0,-16012.0,13988.0,13986.71
+Sueldos grup E: Albergue Transeuntes,0101,23101,12005,8371.49,-1873.0,6498.49,6296.92
+Complemento de destino: Albergue Traseúntes,0101,23101,12100,3696.72,0.0,3696.72,3688.0
+Complemento específico: Albergue Transeuntes,0101,23101,12101,12400.64,-2800.0,9600.64,9399.37
+Gratificaciones: Albergue transeuntes,0101,23101,151,500.0,-400.0,100.0,34.8
+Sueldos grup A2: SEAFI,0101,23102,12001,14499.16,598.69,15097.85,9529.17
+Trienios: SEAFI,0101,23102,12006,2223.69,0.0,2223.69,806.29
+Complemento destino:SEAFI,0101,23102,12100,7064.99,0.0,7064.99,4670.76
+Complemento específico: SEAFI,0101,23102,12101,11658.71,0.0,11658.71,7707.66
+Productividad: SEAFI,0101,23102,150,0.0,1827.8,1827.8,0.0
+Gratificaciones: SEAFI,0101,23102,151,0.0,0.0,0.0,194.48
+Suedos grupo E: Ayuda a domicilio,0101,23103,12005,59090.21,3506.0,62596.21,61124.24
+Trienios: Ayuda a domicilio,0101,23103,12006,3292.33,0.0,3292.33,2821.93
+Complemento de destino: Ayuda a domicilio,0101,23103,12100,25877.04,6584.0,32461.04,35980.29
+Complemento específico: Ayuda a domicilio,0101,23103,12101,70263.9,0.0,70263.9,67779.98
+Gratificaciones: Ayuda a domicilio,0101,23103,151,0.0,25.0,25.0,23.3
+Sueldos grupo C1: Centre d'esplai i Jove,0101,23104,12003,5435.94,0.0,5435.94,5134.58
+Trienios: Centre d'esplai i Jove,0101,23104,12006,0.0,242.0,242.0,196.58
+Complemento de destino:  Centre d'esplai i jove,0101,23104,12100,2664.58,8646.0,11310.58,4198.99
+Complemento específico: Centre d'esplai i Jove,0101,23104,12101,5777.25,0.0,5777.25,4887.81
+Pers.lab.ret.básicas: Centre d'esplai,0101,23104,13000,14209.37,1535.0,15744.37,22152.13
+Pers.lab.otras remuneraciones:Centre d'esplai,0101,23104,13002,8570.73,0.0,8570.73,0.0
+Pers.lab.temporal: Centre d'esplai i jove,0101,23104,131,19578.03,0.0,19578.03,20267.0
+Sueldos grupo A2: Universidad Popular,0101,23105,12001,14691.4,17397.0,32088.4,16621.58
+Sueldos grupo C2: Universidad Popular,0101,23105,12004,14059.66,1794.0,15853.66,20899.37
+Trienios: Universidad Popular,0101,23105,12006,2544.07,897.0,3441.07,4095.66
+Complemento de destino: Universidad Popular,0101,23105,12100,15679.03,704.0,16383.03,19854.96
+Complemento específico: Universidad Popular,0101,23105,12101,28011.79,0.0,28011.79,34265.08
+Sueldos grupo A2: ISI pueblo gitano,0101,23106,12001,14412.63,1100.0,15512.63,15507.64
+Trienios: ISI pueblo gitano,0101,23106,12006,1793.82,0.0,1793.82,1758.88
+Complemento destino: Pueblo gitano,0101,23106,12100,7064.99,0.0,7064.99,7065.0
+Complemento específico: ISI pueblo gitano,0101,23106,12101,11758.4,0.0,11758.4,11758.32
+Sueldos grupo A2: Tercera edad,0101,23107,12001,14783.23,695.0,15478.23,15476.67
+Trienios: Tercera edad,0101,23107,12006,2539.75,0.0,2539.75,2540.16
+Complemento de destino: Tercera edad,0101,23107,12100,8462.18,0.0,8462.18,8462.28
+Complemento específico: Tercera edad,0101,23107,12101,13844.76,0.0,13844.76,13844.74
+Sueldos grupo C2: Inmigración,0101,23108,12004,9259.85,2895.0,12154.85,9169.61
+Sueldos grupo E: Inmigración,0101,23108,12005,8616.37,0.0,8616.37,9423.42
+Trienios: Inmigración,0101,23108,12006,1618.96,262.0,1880.96,1783.16
+Complemento de destino: Inmigración,0101,23108,12100,8481.57,0.0,8481.57,8401.97
+Complemento específico: Inmigración,0101,23108,12101,19074.58,0.0,19074.58,18891.06
+Pers.lab.temporal: Inmigración,0101,23108,131,34757.64,0.0,34757.64,36851.21
+Sueldos grupo A1: Hogar Sag.Familia,0101,23109,12000,16547.51,0.0,16547.51,2149.11
+Sueldos grupo A2: Hogar Sag.Familia,0101,23109,12001,79073.31,0.0,79073.31,68255.11
+Sueldos grupo C2: Hogar Sag.Familia,0101,23109,12004,187823.68,137499.0,325322.68,258900.44
+Sueldos grupo E: Hogar Sag.Familia,0101,23109,12005,84694.45,0.0,84694.45,116397.72
+Trienios: Hogar Sag.Familia,0101,23109,12006,36748.81,162.18,36910.99,27016.15
+Complemento de destino: Hogar Sagrada Familia,0101,23109,12100,182231.03,61422.0,243653.03,261280.86
+Complemento específico: Hogar Sag.Familia,0101,23109,12101,441285.95,0.0,441285.95,491104.25
+Pers.lab.temporal: Hogar Sag.Familia,0101,23109,131,199250.98,7550.0,206800.98,102776.4
+Productividad: Hogar Sag.Familia,0101,23109,150,0.0,3696.64,3696.64,1383.2
+Gratificaciones: Hogar Sag.Familia,0101,23109,151,11000.0,31383.96,42383.96,48372.99
+Sueldos grupo E: CRIS,0101,23110,12005,8534.75,-8315.0,219.75,0.0
+Trienios: CRIS,0101,23110,12006,979.54,530.0,1509.54,0.0
+Complemento de destino:CRIS,0101,23110,12100,3696.72,-3000.0,696.72,0.0
+Complemento específico: CRIS,0101,23110,12101,8957.41,0.0,8957.41,0.0
+Pers.lab.temporal: CRIS,0101,23110,131,287204.56,0.0,287204.56,298025.7
+Sueldos Grupo A1: Servicios Sociales,0101,23111,12000,83163.08,26800.0,109963.08,78020.28
+Sueldos grupo A2: Servicios Sociales,0101,23111,12001,94382.29,-920.0,93462.29,116805.22
+Trienios: Servicios Sociales,0101,23111,12006,31811.02,0.0,31811.02,26326.73
+Complemento destino: Servicios Sociales,0101,23111,12100,93012.98,2442.52,95455.5,98864.48
+Complemento específico: Servicios Sociales,0101,23111,12101,173494.63,-14450.0,159044.63,174690.41
+Pers.lab.temporal: Serv.Sociales,0101,23111,131,0.0,8634.98,8634.98,0.0
+Productividad: Servicios Sociales,0101,23111,150,1500.0,1169.4,2669.4,3372.97
+Gratificaciones: Servicios Sociales,0101,23111,151,0.0,1832.68,1832.68,1677.46
+Personal laboral temporal UPC (drogodependencia),0101,23216,131,0.0,12875.06,12875.06,0.0
+Seguridad Social: EMCORP 2013/2014,0101,24103,16000,2875.44,0.0,2875.44,472.76
+Pers.lab.temporal: Servicio Estatal Empleo,0101,24104,131,0.0,166258.8,166258.8,158523.36
+Seguridad Social: Servicio Estatal Empleo,0101,24104,16000,0.0,56445.66,56445.66,52798.55
+Pers.lab.temporal: Formación desempleados 16/17,0101,24105,131,0.0,2000.0,2000.0,0.0
+Pers.laboral: Plan de empleo Conjunto 15/16,0101,24108,131,33043.4,0.0,33043.4,31886.34
+Seguridad Social: Plan Empleo Conjunto 15/16,0101,24108,16000,16275.11,2200.0,18475.11,18472.64
+Sueldos grupo A2: Fomento de empleo,0101,24110,12001,29171.12,4800.0,33971.12,31209.32
+Trienios: Fomento de empleo,0101,24110,12006,4214.12,0.0,4214.12,4214.4
+Complemento de destino: Fomento de empleo,0101,24110,12100,15527.17,0.0,15527.17,14130.0
+Complemento específico: Fomento de empleo,0101,24110,12101,24919.2,0.0,24919.2,24123.4
+Pers.lab.temporal: Fomento de empleo,0101,24110,131,34898.11,32758.15,67656.26,53278.79
+Otor personal: Fomento de empleo,0101,24110,143,0.0,80869.7,80869.7,48168.2
+Seguridad Social: Fomento de empleo,0101,24110,16000,2880.0,25651.06,28531.06,15126.39
+Pers.lab.temporal: Taller E.S.Josep,0101,24112,131,174354.56,32015.19,206369.75,205963.08
+Seguridad Social: Taller de Empleo S. Josep,0101,24112,16000,0.0,40675.65,40675.65,35147.16
+Personal lab.temporal: Salario Joven 2015/16,0101,24113,131,0.0,2901.43,2901.43,2900.58
+Seguridad Social: Salario Joven 2015/16,0101,24113,16000,1964.85,0.0,1964.85,1192.08
+Pers.lab.temporal: TFIL exclusión social 15/16,0101,24114,131,9729.19,846.57,10575.76,8726.5
+Seguridad Social: TFIL exclusión social 15/16,0101,24114,16000,3243.06,269.06,3512.12,2803.26
+Pers.lab.temporal: TFIL discapacitados 15/16,0101,24115,131,9729.19,0.0,9729.19,6749.72
+Seguridad Social: TFIL discapacitados 15/16,0101,24115,16000,3243.06,500.0,3743.06,3733.78
+Otor personal: Fomento de empleo,0101,24116,143,0.0,2000.0,2000.0,0.0
+Seguridad Social: Mujeres violencia genero,0101,24116,16000,0.0,280.0,280.0,105.72
+Pers.lab.temporal: T.E. Fabrica La Llum,0101,24117,131,0.0,3600.0,3600.0,0.0
+Pers.lab.temporal: Desempleados de larga duración,0101,24118,131,0.0,6278.69,6278.69,0.0
+Sueldos Grupo A2: Educación,0101,32001,12001,3789.21,0.0,3789.21,1668.56
+Sueldos grupo C1: Educación,0101,32001,12003,5796.88,0.0,5796.88,2892.48
+Sueldos grupo C2: Educación,0101,32001,12004,19168.54,0.0,19168.54,20947.27
+Sueldos grupo E: Educación,0101,32001,12005,78187.6,7924.0,86111.6,98152.37
+Trienios: Educación,0101,32001,12006,8496.41,0.0,8496.41,6311.58
+Complemento de destino: Educación,0101,32001,12100,48501.61,4756.0,53257.61,60496.15
+Complemento específico: Educación,0101,32001,12101,117588.3,800.0,118388.3,127448.15
+Pers.lab.ret.básicas: Educación,0101,32001,13000,25850.61,0.0,25850.61,13799.74
+Pers.lab.otras remunerac.:Educación,0101,32001,13002,19048.84,0.0,19048.84,2197.72
+Pers.lab.temporal: Educación,0101,32001,131,0.0,20200.0,20200.0,10889.32
+Productividad: Educación,0101,32001,150,500.0,0.0,500.0,0.0
+Gratificaciones: Educación,0101,32001,151,2000.0,1385.8,3385.8,3049.67
+Pers.laboral temp.: EPA,0101,32002,131,5665.39,0.0,5665.39,1764.23
+Sueldos grupo A1: Cultura,0101,330,12000,0.0,3371.0,3371.0,8467.79
+Sueldos grup A2: Cultura,0101,330,12001,43375.62,-16739.0,26636.62,31398.61
+Sueldos grupo C1: Cultura,0101,330,12003,56253.92,-7266.85,48987.07,43114.04
+Sueldos grupo C2: Cultura,0101,330,12004,18799.01,976.61,19775.62,18269.85
+Sueldos grupo E: Cultura,0101,330,12005,16879.03,4000.0,20879.03,21794.91
+Trienios: Cultura,0101,330,12006,17440.42,0.0,17440.42,15180.99
+Complemento de destino: Cultura,0101,330,12100,68204.31,-4200.0,64004.31,58029.58
+Complemento específico: Cultura,0101,330,12101,137772.52,-7800.0,129972.52,118723.17
+Productividad: Cultura,0101,330,150,2000.0,-800.0,1200.0,1109.6
+Gratificaciones: Cultura,0101,330,151,0.0,0.0,0.0,38.43
+Sueldos grupo A1: Arqueologia y Patrimonio históri,0101,336,12000,16758.69,0.0,16758.69,18077.61
+Sueldos grupo A2: Arqueologia y patrimonio históri,0101,336,12001,14571.54,0.0,14571.54,15715.55
+Trienios: Aqueologia y patrimonio histórico,0101,336,12006,8026.38,0.0,8026.38,8027.04
+Complemento de destino: Arqueologia y patrimonio,0101,336,12100,15527.17,0.0,15527.17,15527.28
+Compl.específico: Arqueologia y patrimonio,0101,336,12101,31709.8,0.0,31709.8,31415.88
+Sueldos grupo C1: Deportes,0101,340,12003,10863.09,38400.0,49263.09,12113.1
+Sueldos grupo E: Deportes,0101,340,12005,72947.14,10431.0,83378.14,91112.75
+Trienios: Deportes,0101,340,12006,6269.05,16736.0,23005.05,8910.78
+Complemento de destino: Deportes,0101,340,12100,37120.95,3501.0,40621.95,51996.66
+Compl.específico: deportes,0101,340,12101,102197.37,0.0,102197.37,118015.41
+Pers.lab.ret.básicas: Deportes,0101,340,13000,80846.01,1042.0,81888.01,108919.61
+Horas extraordinarias: Deporte,0101,340,13001,0.0,4045.2,4045.2,4419.29
+Pers.lab.otras remunerac: deportes,0101,340,13002,49664.32,0.0,49664.32,1200.0
+Pers.lab.temporal: Deportes,0101,340,131,50361.56,479.0,50840.56,40084.9
+Productividad: Deportes,0101,340,150,6000.0,13073.86,19073.86,23548.5
+Gratificaciones: Deporte,0101,340,151,7500.0,2506.0,10006.0,3482.9
+Sueldos grupo C2:  Agricultura,0101,410,12004,19376.22,0.0,19376.22,20771.72
+Trienios: Agricultura,0101,410,12006,16275.41,0.0,16275.41,5076.67
+Complemento de destino: Agricultura,0101,410,12100,13266.42,0.0,13266.42,10118.18
+Compl.específico: Agricultura,0101,410,12101,33572.74,0.0,33572.74,22582.75
+Gratificaciones: Agricultura,0101,410,151,800.0,-800.0,0.0,0.0
+Sueldos grupo A2: Industria,0101,422,12001,14673.95,5000.0,19673.95,16010.57
+Trienios: Industria,0101,422,12006,3792.71,0.0,3792.71,3792.97
+Complemento de destino: Industria,0101,422,12100,7064.99,1985.0,9049.99,8341.96
+Complemento específico: Industria,0101,422,12101,12061.7,2674.0,14735.7,18945.37
+Productividad: Industria,0101,422,150,0.0,1755.2,1755.2,1747.99
+Sueldos grupo A1: Comercio,0101,430,12000,16970.81,14000.0,30970.81,32314.3
+Sueldos grupo C2: Comercio,0101,430,12004,9618.0,0.0,9618.0,10559.53
+Sueldos grupo E: Comercio,0101,430,12005,8425.91,2000.0,10425.91,9962.11
+Trienios: Comercio,0101,430,12006,6681.77,0.0,6681.77,2496.24
+Compl.destino: Comercio,0101,430,12100,18570.26,0.0,18570.26,8991.32
+Complemento específico: Comercio,0101,430,12101,40370.98,0.0,40370.98,20820.24
+Productividad: Comercio,0101,430,150,1000.0,0.0,1000.0,800.0
+Gratificaciones: Comercio,0101,430,151,1000.0,1780.68,2780.68,2876.56
+Sueldos grupo A2: Turismo,0101,432,12001,14315.5,5544.0,19859.5,19501.06
+Sueldos grupo C2: Turismo,0101,432,12004,9653.81,0.0,9653.81,11443.54
+Trienios: Turismo,0101,432,12006,3229.25,0.0,3229.25,2459.14
+Complemento de destino: Turismo,0101,432,12100,11849.84,0.0,11849.84,5393.26
+Complemento específico: Turismo,0101,432,12101,24204.01,0.0,24204.01,12844.24
+Productividad: Turismo,0101,432,150,500.0,0.0,500.0,277.4
+Ret.básicas altos cargos: O.Gobierno,0101,912,10000,158406.32,0.0,158406.32,158406.08
+Ret.básicas pers.eventual: Organos de gobierno,0101,912,11000,31094.0,0.0,31094.0,29247.36
+Sueldos grupo C1: Orgaos de gobierno,0101,912,12003,11458.03,0.0,11458.03,12623.76
+Sueldos grupo C2: Organos de gobierno,0101,912,12004,9619.39,0.0,9619.39,10090.34
+Trienios: Organos de Gobierno,0101,912,12006,5230.44,0.0,5230.44,5056.51
+Complemento de destino: Organos de Gobierno,0101,912,12100,10964.11,400.0,11364.11,12259.4
+Complemento específico: Organos de gobierno,0101,912,12101,26689.62,0.0,26689.62,26027.29
+Productividad: Organos de Gobierno,0101,912,150,1500.0,0.0,1500.0,0.0
+Sueldos grupo A1: Admón. general,0101,920,12000,67788.12,0.0,67788.12,72226.11
+Sueldos grupo A2: Admón. general,0101,920,12001,29557.6,0.0,29557.6,32116.04
+Sueldos grupo C1: Admón. general,0101,920,12003,44904.08,-3350.0,41554.08,56386.97
+Sueldos grupo C2: Admón.general,0101,920,12004,96972.94,-7900.0,89072.94,83753.37
+Sueldos grupo E: Admón.general,0101,920,12005,25740.28,0.0,25740.28,26649.81
+Trienios: Admon.general,0101,920,12006,48417.7,0.0,48417.7,44691.22
+Atrasos paga extra 2012: 48 días,0101,920,12009,139834.7,-127173.43,12661.27,0.0
+"Complemento de destino: Admón., general",0101,920,12100,144378.57,2443.9,146822.47,146014.43
+Complemento específico: Admón. general,0101,920,12101,336318.3,-21957.0,314361.3,311551.93
+Productividad: Admón. general,0101,920,150,34009.27,-9661.04,24348.23,23150.67
+Gratificaciones: Administracion General,0101,920,151,200.0,0.0,200.0,2469.51
+Seguridad Social: Pensiones y otras prestaciones,0101,920,16000,2654996.7,-180645.18,2474351.52,2432850.9
+Arrendam.maquinaria instalaciones: Admón.general,0101,920,203,500.0,0.0,500.0,0.0
+Reparac.maquinaria e instal.:Admón.general,0101,920,213,500.0,0.0,500.0,116.99
+Reparac.mantenim.parque móvil: Admón.general,0101,920,214,5000.0,0.0,5000.0,358.64
+Material oficina no invent: Admón.general,0101,920,22000,17000.0,0.0,17000.0,20852.47
+Combustible parque móvil: Admón.general,0101,920,22103,5000.0,0.0,5000.0,402.74
+Otros suministros: Admón general,0101,920,22199,2500.0,0.0,2500.0,5793.37
+Comunicaciones postales: Admón. general,0101,920,22201,66000.0,-28000.0,38000.0,25403.19
+Primas de seguros: Admón.general,0101,920,224,130729.97,-52780.0,77949.97,59204.42
+Tributos estatales: Admón.general,0101,920,22500,500.0,0.0,500.0,304.62
+Tributos Generalitat (ITV): Admón.general,0101,920,22501,1500.0,0.0,1500.0,0.0
+Publicaciones en diarios Of.:Admón.general,0101,920,22603,3500.0,0.0,3500.0,3190.95
+Jurídicos: Admón.general,0101,920,22604,105000.0,-25000.0,80000.0,63886.76
+Otros gastos diversos: Admón.general,0101,920,22699,2500.0,0.0,2500.0,2582.95
+Otros contratos servicios: Admón.general,0101,920,22799,20000.0,0.0,20000.0,16272.79
+Dietas personal: Admón.general,0101,920,23020,2500.0,0.0,2500.0,1087.83
+Gastos Locomoción Admón general,0101,920,23120,1500.0,0.0,1500.0,2337.53
+Otras indemnizaciones: Admón.general,0101,920,233,8000.0,0.0,8000.0,5774.86
+Limpieza y aseo: Admón. general,0101,920,250,1007671.45,0.0,1007671.45,1000652.9
+Adquisición equipos informáticos:Serv.Generales,0101,920,626,10000.0,28193.0,38193.0,38193.0
+Aplicaciones informáticas: Servicios generales,0101,920,641,0.0,19963.79,19963.79,19963.79
+Préstamo a corto plazo:Admón.general,0101,920,830,60000.0,0.0,60000.0,10365.3
+Sueldos grupo A1: Política ec. y fiscal,0101,931,12000,34146.57,31600.0,65746.57,33633.8
+Sueldos grupo C1: Política ec. y fiscal,0101,931,12003,11426.8,0.0,11426.8,12360.0
+Sueldos grupo C2: Política ec. y fiscal,0101,931,12004,19092.73,0.0,19092.73,19310.48
+Trienios: Política ec. y fiscal,0101,931,12006,12012.73,0.0,12012.73,9892.97
+Complemento de destino: Política ec. y fiscal,0101,931,12100,39231.48,13400.0,52631.48,53075.11
+Complemento específico: Política ec. y fiscal,0101,931,12101,87913.33,0.0,87913.33,75890.37
+Productividad: Política ec. y fiscal,0101,931,150,3500.0,4639.57,8139.57,11526.0
+Gratificaciones: Política ec. y fiscal,0101,931,151,0.0,280.0,280.0,1055.66
+Sueldos grupo A1: Gestión sistema tributario,0101,932,12000,16930.72,0.0,16930.72,17728.88
+Sueldos grupo C1: Gestión sistema tributario,0101,932,12003,11330.39,4980.0,16310.39,23749.75
+Sueldos grupo C2: Gestión sistema tributario,0101,932,12004,49380.89,-3317.68,46063.21,44978.4
+Trienios: Gestión sistema tributario,0101,932,12006,14770.55,0.0,14770.55,16811.59
+Complemento de destino: Gestión sistema tributario,0101,932,12100,41586.61,-2000.0,39586.61,43297.9
+Complemento específico: Gestión sistema tributario,0101,932,12101,84655.76,-7049.23,77606.53,84959.91
+Productividad: Gestión del Sistema tributario,0101,932,150,500.0,1924.46,2424.46,2207.73
+Gratificaciones: Gestión sist. tributario,0101,932,151,0.0,240.0,240.0,230.58
+Sueldos grupo A1:Gtión. deuda y tesorería,0101,934,12000,16993.56,-2037.8,14955.76,16608.76
+Sueldos grupo A2: Gtión. deuda y tesorería,0101,934,12001,14657.35,0.0,14657.35,15834.5
+Sueldos grupo C2: Gtión. deuda y tesorería,0101,934,12004,9582.18,0.0,9582.18,10484.64
+Trienios: Gtión. deuda y tesorería,0101,934,12006,7608.45,0.0,7608.45,7333.36
+Complemento de destino: Gtión. deuda y tesorería,0101,934,12100,23591.09,-1356.45,22234.64,22026.03
+Complemento específico: Gtión. deuda y tesorería,0101,934,12101,53127.94,-3453.6,49674.34,49142.91
+Productividad: Gestión deuda y Tesoreria,0101,934,150,2000.0,313.0,2313.0,387.0
+Reparac.maquinaria: Seguridad y orden público,0201,132,213,4000.0,0.0,4000.0,3415.95
+Reparac.mantenim.vehiculos: Seguridad y orden públ,0201,132,214,10000.0,0.0,10000.0,20905.0
+Material oficina no inventa.: Seguridad y orden,0201,132,22000,2000.0,0.0,2000.0,687.64
+Combustible y carburantes: Seguridad y orden públi,0201,132,22103,12000.0,0.0,12000.0,12212.05
+Vestuario: Seguridad y orden público,0201,132,22104,5000.0,0.0,5000.0,11762.2
+Otros suministros: Seguridad y orden público,0201,132,22199,7000.0,0.0,7000.0,8289.66
+Tributos Generalitat ITV: Seguridad y orden,0201,132,22501,1000.0,0.0,1000.0,2170.79
+Publicidad: Seguridad y orden público,0201,132,22602,2000.0,0.0,2000.0,175.45
+Otros trabajos realizados empresas:Seg. y Orden pú,0201,132,22799,14000.0,0.0,14000.0,27075.61
+Arrendamiento de vehículos,0201,133,204,16000.0,-7000.0,9000.0,0.0
+Mantenimiento infraestruc: Ord. tráfico y estac.,0201,133,210,15000.0,0.0,15000.0,14615.74
+Contrato gestión de estacionam. vehículos,0201,133,22701,354041.52,0.0,354041.52,292421.05
+Otros suministros: Protección Civil,0201,135,22199,8000.0,0.0,8000.0,14966.25
+Arrendam. equipos informáticos: Nuevas tecnologias,0301,920,206,34500.0,0.0,34500.0,5358.23
+Reparaciones maquinaria: Nuevas Tecnologias,0301,920,213,4500.0,0.0,4500.0,3460.23
+Rep.mantenim.equipos informáticos: Admon.general,0301,920,216,25000.0,0.0,25000.0,40107.7
+Material de oficina(informa): Admón.general,0301,920,22002,15000.0,0.0,15000.0,22699.28
+Comunicaciones informáticas: Nuevas tecnologias,0301,920,22200,110000.0,0.0,110000.0,128410.3
+Expediente tramitación electrónica,0301,920,22706,60000.0,0.0,60000.0,24552.9
+Servicios y mantenimiento: Admón.general,0301,920,22799,65000.0,-1385.45,63614.55,73815.01
+Mobilliario: Adminstración de Urbanismo,0404,150,625,0.0,3000.0,3000.0,2842.29
+Reparac. y mantenim. parque móvil,0404,151,214,15000.0,0.0,15000.0,9333.65
+Material oficina no invent.: Urbanismo,0404,151,22000,3000.0,0.0,3000.0,237.91
+Publicidad y propaganda: Urbanismo,0404,151,22602,3000.0,0.0,3000.0,0.0
+"Jurídicos, contenciosos: Urbanismo",0404,151,22604,15000.0,0.0,15000.0,23064.36
+"Reuniones, conferencias, cursos:Urbanismo",0404,151,22606,400.0,0.0,400.0,40.0
+Otros gastos diversos: Urbanismo,0404,151,22699,500.0,0.0,500.0,2718.01
+Estudios y trabajos técnicos: Urbanismo,0404,151,22706,10000.0,0.0,10000.0,9994.6
+Adquisicion inmuebles PMS: Urbanismo,0404,151,681,201656.68,0.0,201656.68,201656.67
+Otras inversiones: Vías Públicas,0404,155,619,420271.93,14662.3,434934.23,417754.8
+Inversiones infraestsruc.Saneamiento y abastecimie,0404,161,609,60466.56,0.0,60466.56,60466.56
+Repara.mante.infraestructur.:Alumbrado Público,0404,165,210,464606.89,0.0,464606.89,463994.7
+"Infraestructuras: Oficina turismo, (P. Prov 2016)",0404,432,609,0.0,100857.48,100857.48,95489.31
+Arrendamiento edificios y construcc.: Admón.genera,0404,920,202,56235.0,0.0,56235.0,8663.57
+Reparac.mantenim.conserv.y edificios: Admón.genera,0404,920,212,85000.0,0.0,85000.0,78117.83
+Reparac.maquinaria e instal.:Urbanismo y M.Ambient,0404,920,213,0.0,0.0,0.0,15747.13
+Energía eléctrica: Admón.general,0404,920,22100,997171.83,0.0,997171.83,969338.29
+Otros contratos: Instalac. eléctricas edificios,0404,920,22799,0.0,0.0,0.0,17323.56
+Reparac.mantenim.infraestruct.:Vías Públicas,0405,1533,210,60000.0,0.0,60000.0,20359.69
+Combustible y carburantes: Vías Públicas,0405,1533,22103,22000.0,0.0,22000.0,11447.3
+Vestuario: Vías Públicas,0405,1533,22104,6000.0,0.0,6000.0,5857.73
+Suministro vehículos:Brigada,0405,155,624,20000.0,0.0,20000.0,19985.0
+Reposición edificios:Cementerio municipal,0405,164,632,93468.0,18008.9,111476.9,111476.88
+Reposición edificios: Residencia de ancianos,0405,23109,632,0.0,60500.0,60500.0,60448.14
+Reposición edificios: Cent.sociales y esparcimient,0405,23115,632,80000.0,-60500.0,19500.0,10002.1
+Inversiones edificios:Cultura,0405,33500,622,50000.0,0.0,50000.0,13489.31
+Suministros: Instalaciones culturales,0405,33500,623,2000.0,0.0,2000.0,1995.73
+Inversiones en edificios municipales: S.Generales,0405,920,623,50000.0,2870.4,52870.4,50856.46
+"Cánones: Saneamiento, alcantarillado y dep.aguas",0506,161,209,30000.0,0.0,30000.0,5753.05
+"Recogida, transporte, eliminac.y trat.residuos",0506,1621,22700,733081.0,59936.56,793017.56,789133.58
+Servicio de limpieza viaria,0506,163,22700,878146.0,73399.04,951545.04,954426.66
+Reparación vehículos: Medio Ambiente,0506,170,214,0.0,0.0,0.0,769.35
+Combustible y caburante: Medio Ambiente,0506,170,22103,0.0,0.0,0.0,1190.03
+Otros suministros: Medio Ambiente,0506,170,22199,3000.0,0.0,3000.0,1847.62
+Publicidad y propaganda: Medio ambiente,0506,170,22602,5000.0,-1500.0,3500.0,2585.35
+"Jurídicos,contenciosos: Medio Ambiente",0506,170,22604,30985.0,0.0,30985.0,17311.26
+Otros gastos diversos: Medio Ambiente,0506,170,22699,10000.0,0.0,10000.0,30839.5
+Otros contratos servicios: Medio Ambiente,0506,170,22799,40000.0,0.0,40000.0,33872.48
+"Maquinaria, instalaciones: Servicio Medio Ambiente",0506,170,623,0.0,1841.35,1841.35,1841.35
+Mobilliario: Servicio de Medio Ambiente,0506,170,625,0.0,380.0,380.0,322.69
+Mantenim.conservac.infra.; Parques y jardines,0506,171,210,453763.0,-1263.0,452500.0,427536.84
+Reparac.conserv.cías rústicas: Vías Públicas,0510,1534,210,20000.0,0.0,20000.0,4489.03
+Reparación vehículos: Agricultura,0510,410,214,0.0,0.0,0.0,3131.48
+Combustible y carburantes: Agricultura,0510,410,22103,8000.0,0.0,8000.0,4190.39
+Otros suministros diversos: Agricultura,0510,410,22199,10000.0,0.0,10000.0,9076.03
+Publicidad y propaganda: Agricultura,0510,410,22602,2100.0,0.0,2100.0,3053.45
+Otros contratos externos: Agricultura,0510,410,22799,3000.0,0.0,3000.0,162.5
+Mobiliario Urbano: Vías Públicas,0704,155,625,2905.69,0.0,2905.69,2905.69
+Otras inversiones: Parques y jardines,0704,171,619,70000.0,-3892.55,66107.45,60049.12
+Otras inversiones: Post clausura Vertedero Garrut,0704,1722,619,0.0,6500.0,6500.0,6419.7
+Otros suministros: Obras y serv.EMCORP,0802,24103,22199,10000.0,-10000.0,0.0,0.0
+Otros suministros: Obras S.E. estatal,0802,24104,22199,30000.0,-7500.0,22500.0,9580.08
+Otros suministros: TFIL exclusión social 14/15,0802,24106,22199,0.0,0.0,0.0,2277.12
+Otros suministros: TFIL discapacitados 14/15,0802,24107,22199,0.0,0.0,0.0,2119.41
+Otros suministros: Plan Empleo Conjunto 2015,0802,24108,22199,3000.0,-3000.0,0.0,0.0
+Arrendamiento local SERCEF: Fomento empleo,0802,24110,202,35000.0,9000.0,44000.0,34737.6
+Mantenim.reparac.edificios:Fomenmto empleo,0802,24110,212,1000.0,0.0,1000.0,0.0
+Pirmas de Seguros: Fomento de empleo,0802,24110,224,0.0,0.0,0.0,75.85
+Publicidad y propaganda:Fomento de empleo,0802,24110,22602,5000.0,-4729.91,270.09,539.18
+Reuniones y conferencias:Fomento de empleo,0802,24110,22606,23917.24,-19650.75,4266.49,5286.88
+Gastos elaboración proyectos europeos,0802,24110,22699,15000.0,0.0,15000.0,16043.7
+Otros contratos servicios: Fomento empleo,0802,24110,22799,7500.0,-5144.0,2356.0,1108.61
+Dietas de personal: Fomento de empleo,0802,24110,23020,500.0,0.0,500.0,0.0
+Otros suministros:Plan Local de Empleo,0802,24111,22199,100000.0,-96794.11,3205.89,1433.01
+Becas: Otra formación para el empleo,0802,24111,481,20000.0,-4560.0,15440.0,3072.0
+Reparación maquinaria: Taller Empleo Sant Josep 2,0802,24112,213,0.0,0.0,0.0,518.47
+Material de oficina: Taller Empleo Sant Josep 2,0802,24112,22000,3000.0,0.0,3000.0,108.05
+Vestuario: Taller Empleo Sant Josep 2,0802,24112,22104,0.0,0.0,0.0,2182.13
+Otros suministros: Taller Empleo Sant Josep 2,0802,24112,22199,3000.0,2885.95,5885.95,21108.03
+Reuniones y conferencias:Taller Sant Josep 2,0802,24112,22606,25640.83,0.0,25640.83,4550.0
+Estudios y trabajos técnicos:Taller Sant Josep 2,0802,24112,22706,9000.0,0.0,9000.0,9946.2
+Mantenim. reparac. edificioT.E. Fábrica de la Llum,0802,24117,212,0.0,5000.0,5000.0,0.0
+Material de oficina: Programa Life Ecocitric,0802,412,22000,16000.0,-2372.68,13627.32,4250.23
+"Publicidad, comunicación: Programa Life Ecocítric",0802,412,22602,23000.0,0.0,23000.0,29793.28
+Reuniones y conferencias:Programa Life Ecocítric,0802,412,22606,35000.0,0.0,35000.0,27046.04
+Estudios y trabajos téc.: Programa Life Ecocítric,0802,412,22706,31070.0,0.0,31070.0,21847.48
+Contratos servicios: Programa Life Ecocitric,0802,412,22799,43909.4,-2913.92,40995.48,51318.52
+Dietas personal: Programa Life Ecocitric,0802,412,23020,0.0,0.0,0.0,421.06
+Adquisición equipos informáticos: Programa Life Ec,0802,412,626,0.0,5286.6,5286.6,5286.6
+Reparac.y conservacion edifcios: Comercio,0802,430,212,6000.0,0.0,6000.0,3326.97
+"Reparación maquinaria, instal:comercio",0802,430,213,1335.15,0.0,1335.15,494.12
+Otros suministros diversos: Comercio,0802,430,22199,1000.0,0.0,1000.0,3827.35
+Publicidad y propaganda:Comercio,0802,430,22602,0.0,0.0,0.0,5863.31
+Reuniones y conferencias: Comercio,0802,430,22606,10000.0,6000.0,16000.0,11393.88
+Otros contratos servicios:Comercio,0802,430,22799,5000.0,15810.0,20810.0,52894.14
+Subvenciones entidades comerciales,0802,430,481,30000.0,-15810.0,14190.0,12796.53
+Reuniones y conferencias:Desarrollo empresarial,0802,433,22606,20000.0,20000.0,40000.0,906.5
+Otros servicios: Desarrollo empresarial,0802,433,22799,0.0,0.0,0.0,3630.0
+Convenio Antenas Locales COCIN:Desarrollo empre,0802,433,479,30500.0,0.0,30500.0,30500.0
+Subvenciones desarrollo empresarial y coop.,0802,433,48200,25000.0,-20000.0,5000.0,0.0
+Fundación Universidad Empresa Jaume I,0802,433,48201,6011.0,0.0,6011.0,6010.12
+Subvenciones entidades innovación e investig,0802,462,48200,30000.0,-24000.0,6000.0,0.0
+Otros suministros diversos:Turismo,0803,432,22199,6000.0,0.0,6000.0,591.69
+Atenciones protocolarias:Turismo,0803,432,22601,1000.0,1263.0,2263.0,1382.0
+Publicidad y propaganda: Turismo,0803,432,22602,15000.0,0.0,15000.0,12895.4
+Otros contratos servicios: Turismo,0803,432,22799,6000.0,12604.88,18604.88,15300.5
+Otras inversiones: Turismo ruta civilizaciones,0803,432,619,0.0,10588.79,10588.79,10570.98
+Inversiones bienes naturales: Grutas S. José,0803,432,621,0.0,0.0,0.0,0.0
+Energia eléctrica: Albergue transeúntes,0903,23101,22100,3000.0,-3000.0,0.0,0.0
+Productos alimenticios: Albergue transeuntes,0903,23101,22105,5000.0,-4245.58,754.42,754.42
+Productos farmaceuticos: Albergue transeúntes,0903,23101,22106,400.0,0.0,400.0,0.0
+Productos limpieza y aseo: Albergue transeúntes,0903,23101,22110,486.0,0.0,486.0,940.13
+Otros gastos diversos: Albergue transeuntes,0903,23101,22699,730.0,0.0,730.0,666.09
+Otros gastos diversos: SEAFI,0903,23102,22699,1000.0,0.0,1000.0,835.26
+Reparac.parque movil:Ayuda a domicilio,0903,23103,214,1000.0,0.0,1000.0,663.85
+Combustible y carburantes: Ayuda a domicilio,0903,23103,22103,1000.0,0.0,1000.0,1339.86
+Vestuario: Ayuda a domicilio,0903,23103,22104,270.0,0.0,270.0,271.77
+Productos limpieza: Ayuda a domicilio,0903,23103,22110,450.0,0.0,450.0,449.47
+Otros suministros: Ayuda a domicilio,0903,23103,22199,2500.0,0.0,2500.0,2393.84
+Publicidad y propaganda:Universidad Popular,0903,23105,22602,3500.0,-200.0,3300.0,2749.99
+Contratos profesores:Universidad Popular,0903,23105,22606,48300.0,-2900.0,45400.0,44324.94
+Otros gastos diversos:Universidad Popular,0903,23105,22699,6500.0,5205.87,11705.87,12238.82
+Reuniones y conferencias: Tercera edad,0903,23107,22606,16000.0,-1858.15,14141.85,0.0
+Otros gastos diversos: Tercera edad,0903,23107,22699,8000.0,0.0,8000.0,21802.53
+Otros gastos diversos: Inmigración,0903,23108,22699,10000.0,0.0,10000.0,9490.13
+Otros contratos externos: Inmigración,0903,23108,22799,0.0,0.0,0.0,130.68
+Reparación edificios:Hogar Sag.Familia,0903,23109,212,12000.0,-2000.0,10000.0,11359.63
+Reparac.maquinaria:Hogar Sag.Familia,0903,23109,213,4500.0,0.0,4500.0,8800.58
+Combustible y carburantes: Hogar Sag.Familia,0903,23109,22103,13500.0,0.0,13500.0,9710.84
+Vestuario: Hogar Sag.Familia,0903,23109,22104,2500.0,0.0,2500.0,5072.95
+Productos alimenticios: Hogar Sag.Familia,0903,23109,22105,123071.5,-8569.97,114501.53,102255.16
+Productos limpieza: Hogar Sag.Familia,0903,23109,22110,16352.5,-3235.72,13116.78,11475.05
+Otros suministros: Hogar Sag Familia,0903,23109,22199,16024.0,-5459.07,10564.93,14462.63
+Otros gastos diversos: Hogar Sagrada Familia,0903,23109,22699,0.0,0.0,0.0,1397.86
+Otros contratos servicios: Hogar Sag.Familia,0903,23109,22799,5400.0,0.0,5400.0,6870.27
+"Maquinaria, instalaciones: Residencia de ancianos",0903,23109,623,0.0,20353.46,20353.46,20349.46
+Mobiliario: Residencia de ancianos,0903,23109,625,0.0,5361.3,5361.3,5360.96
+"Mantenim.maquinaria,instalac.: CRIS",0903,23110,213,1800.0,-1000.0,800.0,347.51
+"Mat.oficina, prensa, revistas; CRIS",0903,23110,22001,900.0,0.0,900.0,303.05
+Combustible y carburantes: CRIS,0903,23110,22103,3600.0,-1000.0,2600.0,1870.97
+Otros gastos diversos: CRIS,0903,23110,22699,4500.0,-2074.53,2425.47,2030.83
+"Maquinaria, instalaciones: CRIS",0903,23110,623,0.0,12269.4,12269.4,12269.4
+Mobiliario: CRIS,0903,23110,625,0.0,2933.04,2933.04,2933.04
+Reparac.maquinaria:Serv.sociales,0903,23111,213,1700.0,0.0,1700.0,0.0
+Mat.oficina no inventariable:Serv.Sociales,0903,23111,22000,700.0,0.0,700.0,3568.11
+Otros gastos diversos: Servicios Sociales,0903,23111,22699,0.0,0.0,0.0,78.36
+Dietas personal: Servicios sociales,0903,23111,23020,2000.0,0.0,2000.0,0.0
+Subvenciones entidades sociales,0903,23111,48300,18000.0,0.0,18000.0,17741.43
+Convenio Smara,0903,23111,48303,4250.0,0.0,4250.0,4250.0
+Convenio Manos Unidas,0903,23111,48310,12174.0,0.0,12174.0,12174.0
+Convenio Tupay,0903,23111,48311,5000.0,0.0,5000.0,5000.0
+Asoc.cultural gitana,0903,23111,48312,1500.0,0.0,1500.0,1500.0
+Centro cultural islámico,0903,23111,48313,3000.0,0.0,3000.0,0.0
+Fundación daño cerebral sobrevenido,0903,23111,48315,1400.0,0.0,1400.0,1400.0
+Convenio Fundac.Alzheimer Salomé Moliner,0903,23111,48316,19152.0,5000.0,24152.0,24152.0
+Mantenimiento edificios:Clubs de convivencia,0903,23114,212,3000.0,992.36,3992.36,2238.05
+Subvenciones Asociaciones jubilados y pensionistas,0903,23114,48318,10000.0,0.0,10000.0,10000.0
+Reparac.y conservac.edificios:Centros sociales,0903,23115,212,3000.0,0.0,3000.0,7922.05
+Reparac. y conservac.maquinaria: Centros sociales,0903,23115,213,12000.0,-3368.0,8632.0,0.0
+Combustible y carburantes: Centros sociales,0903,23115,22103,3000.0,0.0,3000.0,0.0
+Otros suministros: Centros sociales,0903,23115,22199,0.0,0.0,0.0,18.66
+Otros contratos servicios: Centros sociales,0903,23115,22799,0.0,6000.0,6000.0,7153.52
+Publicidad y propaganda: Informac. y asesoram.,0903,23116,22602,1630.0,-1630.0,0.0,0.0
+Publicidad y propaganda: Formación de padres,0903,23117,22602,1025.0,0.0,1025.0,943.32
+Otros gastos diversos: Voluntariado social,0903,23118,22699,1500.0,-1500.0,0.0,0.0
+Otros gastos diversos: Discapacitados,0903,23119,22699,1500.0,0.0,1500.0,1345.3
+Otros gastos diversos: Dones i Isonomía,0903,23120,22699,12000.0,0.0,12000.0,11922.44
+Otros contratos servicios: Dones i Isonomía,0903,23120,22799,0.0,0.0,0.0,0.0
+Subvencion programa dones,0903,23120,480,3000.0,0.0,3000.0,2768.33
+Programa menjar i major a casa,0903,23121,450,29176.8,-12000.0,17176.8,12995.19
+Prestaciones económicas individuales (PEI),0903,23122,480,450000.0,49740.94,499740.94,494026.18
+Renta Garantizada,0903,23123,480,33048.48,380945.72,413994.2,339938.52
+Subvenciones acogimientos familiares,0903,23124,480,19764.0,28112.0,47876.0,47112.0
+Convenio transp.adap.funda. Alzheimer Salomé Molin,0903,23125,48317,22500.0,0.0,22500.0,22500.0
+Becas: Tapis,0903,23126,481,9000.0,1500.0,10500.0,7943.75
+Convenio Cáritas-Centres d'esplai,0903,23127,48300,24710.0,0.0,24710.0,24710.0
+Convenio Cáritas General,0903,23127,48306,34400.0,0.0,34400.0,34400.0
+Subvención ayudas refugiados,0903,23129,480,5000.0,-5000.0,0.0,0.0
+Convenio Cruz Roja,0903,312,48203,20000.0,0.0,20000.0,20000.0
+Otros gastos diversos: Participación y transparenc,0903,9241,22699,27500.0,-6000.0,21500.0,8507.51
+Subvenciones particip.ciudadana,0903,9241,489,12500.0,0.0,12500.0,11902.17
+Mantenim.rep. y conserv.:Cementerio,1005,164,212,4000.0,0.0,4000.0,889.49
+Otros suministros:Cementerio,1005,164,22199,4000.0,0.0,4000.0,2608.52
+Festejos populares:Fiestas Populares y festejos,1005,338,22699,68152.6,12754.6,80907.2,78296.46
+Comisión de Fiestas:Sant Vicent Ferrer,1005,338,48601,15000.0,0.0,15000.0,14155.94
+Comisión fiestas Sagrada Familia y Santísimo Crist,1005,338,48602,15000.0,0.0,15000.0,14620.83
+Comisión Fiestas Junta Local Fallera,1005,338,48603,15000.0,0.0,15000.0,15000.0
+Comisión Fiestas Penyes en Festes,1005,338,48604,15000.0,0.0,15000.0,14067.29
+Comisión Federación de Fiestas,1005,338,48605,66500.0,0.0,66500.0,66500.0
+Reparación instalaciones: Servicio fiestas,1005,338,623,11000.0,-11000.0,0.0,0.0
+Otros gastos diversos:Centre d'esplai i Jove,1006,23104,22699,7000.0,0.0,7000.0,6828.94
+Otros gastos diversos: Casal Jove,1006,23113,22699,18000.0,0.0,18000.0,0.0
+Otros contratos servicios: Radio Jove,1006,23113,22799,0.0,0.0,0.0,17550.0
+Material oficina no invent.: Deportes,1006,340,22000,100.0,0.0,100.0,0.0
+Vestuario: Deportes,1006,340,22104,0.0,0.0,0.0,999.94
+Otros gastos diversos: Deportes,1006,340,22699,0.0,0.0,0.0,5805.58
+Publicidad y propaganda: Promoc. fomento deporte,1006,341,22602,1000.0,0.0,1000.0,860.28
+Reuniones y conferencias: Fomento del deporte,1006,341,22606,25000.0,-10600.0,14400.0,15569.22
+Gastos diversos: Escuelas deportivas municipales,1006,341,22699,10000.0,0.0,10000.0,11487.31
+Convenio Club Ciclista Manrubia,1006,341,48303,1000.0,0.0,1000.0,0.0
+Subvenciones a entidades deportivas,1006,341,48400,0.0,22200.0,22200.0,22000.0
+Convenio Club de Fútbol La Vall,1006,341,48401,15000.0,0.0,15000.0,15000.0
+Subvención Club Terratremols,1006,341,48404,1000.0,1500.0,2500.0,2500.0
+Convenio Unión Deportiva Vall de Uxó,1006,341,48408,15000.0,0.0,15000.0,15000.0
+Mantenim y const. edificios; Instalaciones deporti,1006,342,212,13700.0,0.0,13700.0,8500.39
+Mantenim.maquinarias; Instalaciones deportivas,1006,342,213,1000.0,0.0,1000.0,1343.27
+Combustibles y carburantes: Instal. deportivas,1006,342,22103,19000.0,0.0,19000.0,10553.91
+Suministros: Instalaciones deportivas,1006,342,623,15000.0,0.0,15000.0,14996.41
+Inversiones en edificios: Instalaciones deportivas,1006,342,632,46225.45,-13100.0,33125.45,30992.47
+Publicidad y propaganda: Juventud,1006,9242,22602,0.0,0.0,0.0,66.55
+Reuniones y conferencias: Juventud,1006,9242,22606,44100.0,0.0,44100.0,12818.39
+Otros gastos diversos: Juventud,1006,9242,22699,0.0,0.0,0.0,24700.88
+Otros contratos de servicios: Juventud,1006,9242,22799,0.0,0.0,0.0,2199.02
+Reuniones y conferencias: Infancia,1006,9243,22606,29500.0,0.0,29500.0,31648.96
+Gastos Jurídicos:Sanidad,1007,311,22604,69400.0,0.0,69400.0,53129.17
+Reuniones y conferencias: Sanidad y consumo,1007,311,22606,3000.0,0.0,3000.0,6019.35
+Gastos diversos:Ciudades sanas,1007,311,22699,1000.0,0.0,1000.0,0.0
+Control plagas y recog.animales: Sanidad y consumo,1007,311,22700,70000.0,0.0,70000.0,77293.3
+Otros contratos sanitarios:Cruz Roja,1007,311,22799,10000.0,0.0,10000.0,0.0
+Arrendamiento maquinaria: Cultura,1008,330,203,1350.0,-1350.0,0.0,0.0
+Reparación y conserv.edificios: Culura,1008,330,212,1500.0,0.0,1500.0,3858.97
+Otros gastos diversos: Cultura,1008,330,22699,4000.0,0.0,4000.0,6632.72
+"Material oficina (prensa, rev.): Biblioteca y arch",1008,3321,22001,3900.0,-3000.0,900.0,0.0
+Otras inversiones: Fondo bibliográfico,1008,3321,629,0.0,915.23,915.23,915.0
+Publicidad y propaganda: Promoción cultural,1008,334,22602,22000.0,0.0,22000.0,24137.66
+Otros gastos diversos: Promoción cultural,1008,334,22699,6200.0,-2600.0,3600.0,4928.65
+Otros contratos de servicios: Promoción cultural,1008,334,22799,73900.0,13165.6,87065.6,82700.7
+Convenio Ateneu Musical Schola Cantorum,1008,334,48504,8000.0,0.0,8000.0,8000.0
+Convenio Centre Instructiu d'Art i Cultura,1008,334,48505,8000.0,0.0,8000.0,8000.0
+Convenio Unión Musical Vallduxense,1008,334,48507,3000.0,0.0,3000.0,3000.0
+Convenio Amics de la Vall,1008,334,48508,1500.0,0.0,1500.0,1500.0
+Convenio Juventuts Musicals,1008,334,48509,1000.0,0.0,1000.0,1000.0
+Convenio Junta Coordinadora cofradías S.Santa,1008,334,48511,1000.0,0.0,1000.0,1000.0
+Convenio Amics de la Vall-Música i Paraula,1008,334,48513,2500.0,0.0,2500.0,2500.0
+Convenio Palau Marquesos de Vivel,1008,334,48516,6000.0,0.0,6000.0,6000.0
+"Convenio Penya Cultural Flamenca ""Rubito Hijo""",1008,334,48519,0.0,2500.0,2500.0,2500.0
+"Convenio Asociación Cultural Flamenca ""El Maleno""",1008,334,48520,0.0,2500.0,2500.0,2484.0
+"Convenio ""A. C. Festes Campanar 225 aniversari""",1008,334,48521,0.0,11000.0,11000.0,10537.17
+"Convenio ""Cultura Mutant Associacio d'Artistes""",1008,334,48523,0.0,2600.0,2600.0,2600.0
+"Convenio ""Asociación Dames i Cavallers Lvdu""",1008,334,48524,0.0,10000.0,10000.0,10000.0
+Otros contratos servicios: Centro Polifuncional,1008,33501,22799,290000.0,0.0,290000.0,289999.99
+Otros suministros diversos: Arqueología y patrimon,1008,336,22199,2000.0,-1650.0,350.0,0.0
+Otros gastos diversos: Arqueologia y patrimonio,1008,336,22699,3500.0,0.0,3500.0,790.54
+Otros contratos servicios: Arqueología y patrimoni,1008,336,22799,3800.0,-2000.0,1800.0,0.0
+Convenio Asociación Arqueológica,1008,336,48506,1000.0,0.0,1000.0,1000.0
+Publicidad y propaganda:Escuela de verano,1009,23112,22602,1500.0,0.0,1500.0,2547.86
+Otros gastos diversos: Escuela de verano,1009,23112,22699,6500.0,0.0,6500.0,4238.09
+Otros contratos servicios: Escuela de verano,1009,23112,22799,43000.0,67010.6,110010.6,108380.49
+Reparac.y conservac. edificios:Educación,1009,32001,212,44000.0,15000.0,59000.0,75458.43
+Reparac. y conserv.maquinaria:Educación,1009,32001,213,19600.0,0.0,19600.0,2083.37
+Combustibles y carburantes:Educación,1009,32001,22103,30000.0,0.0,30000.0,27453.79
+Gastos diversos: Proyectos educativos,1009,32001,22699,0.0,10000.0,10000.0,23663.83
+Otros contratos servicios:Educación,1009,32001,22799,20000.0,0.0,20000.0,2914.59
+Becas educación:Libros de texto,1009,32001,481,810000.0,-137897.29,672102.71,287878.9
+"Convenio ""Escuela valenciana""",1009,32001,48522,0.0,5000.0,5000.0,0.0
+Premios y becas: Programas educativos,1009,32003,481,0.0,26420.0,26420.0,25892.06
+Convenio escuela laboral Carbonaire,1009,326,481,11000.0,0.0,11000.0,11000.0
+Asociac. internacional ciudades educadoras,1009,334,48518,220.0,0.0,220.0,0.0
+Intereses:Deuda Pública,1101,011,310,310967.89,-99421.36,211546.53,64811.8
+Amortiz. préstamos Ip:Deuda pública,1101,011,913,2542982.26,1753228.66,4296210.92,4292261.86
+Subvención Emsevall: Sevicio trasnporte,1101,442,44900,120233.56,0.0,120233.56,120233.56
+Fondo de contingencia de ejecución presupuestaria,1101,929,500,291000.0,-291000.0,0.0,0.0
+"Maquinaria, instalaciones: Política Ec. y fiscal",1101,931,213,150.0,0.0,150.0,0.0
+Material de oficina no invent.: Política económica,1101,931,22000,150.0,0.0,150.0,5112.31
+Jurídicos: Política Ec. y fiscal,1101,931,22604,1414522.35,0.0,1414522.35,1404636.58
+"Formación, reuniones: Polít.Ec. y Fiscal",1101,931,22606,1000.0,0.0,1000.0,0.0
+Estudios y trabajos técnicos: Polít. ec. y Fsical,1101,931,22706,13500.0,0.0,13500.0,0.0
+Gastos formalización y cancelación de préstamos,1101,934,311,5000.0,0.0,5000.0,0.0
+Intereses de demora:Gestión deuda y Tesorería,1101,934,352,1383288.55,9000.0,1392288.55,1385163.57
+Otros gastos financieros:Gestión deuda y tesorería,1101,934,359,4000.0,0.0,4000.0,2878.49
+Transferencia Emsevall: Servicio piscina,1101,934,44901,400743.76,0.0,400743.76,400743.76
+Transferencia Emsevall:Servicio Grutas,1101,934,44902,1076158.54,3000.0,1079158.54,1076158.54
+Transferencia Emsevall: Servicios Comunes,1101,934,44903,42138.08,0.0,42138.08,42138.08
+Renting máquina expendedora entradas,1201,932,206,20000.0,-20000.0,0.0,0.0
+Material oficina no invent.Gestión S.Tributario,1201,932,22000,4000.0,0.0,4000.0,4296.71
+Otros suministros: Gestión S.Tributario,1201,932,22199,120.0,0.0,120.0,1113.2
+Comunicaciones postales:Gestión del sistema tribut,1201,932,22201,35000.0,0.0,35000.0,25058.81
+Servicio recaudación ejecutiva: AEAT,1201,932,22500,30000.0,-17100.0,12900.0,10733.67
+Servicio recaudación de multas: Gestión S.Tribu.,1201,932,22502,50000.0,0.0,50000.0,53022.83
+Publididad y propaganda:Gestión S.Tributario,1201,932,22602,1000.0,0.0,1000.0,0.0
+Gastos juridicos:Gestión del sistema tribut,1201,932,22604,0.0,0.0,0.0,12386.77
+Estudios y trabajos técnicos: Gestión Sist.tributa,1201,932,22706,15000.0,-50.0,14950.0,3740.11
+Suministro máquina expendedora de entradas Grutas,1201,932,623,0.0,20000.0,20000.0,17762.8
+Mobilliario: Gestión Sistema Tributario,1201,932,625,0.0,1600.0,1600.0,1499.19
+Aplicaciones informáticas: Gestión tributaria,1201,932,641,0.0,15550.0,15550.0,15550.0
+Aportación patronato provincial turismo,1411,432,461,3700.0,0.0,3700.0,0.0
+Material oficina no inventariable: O. de Gobierno,1411,912,22000,2000.0,0.0,2000.0,0.0
+Atenciones protocolarias y repres.: Organos gobier,1411,912,22601,20000.0,0.0,20000.0,12633.45
+Publicidad y propaganda: organos gobierno,1411,912,22602,89440.0,125921.36,215361.36,213778.34
+Otros gastos diversos: Organos gobierno,1411,912,22699,5000.0,0.0,5000.0,2945.13
+Dietas:Organos de gobierno,1411,912,23000,2000.0,0.0,2000.0,1393.65
+Otras indemnizaciones:Organos de gobierno,1411,912,233,160000.0,0.0,160000.0,122030.65
+Transferencias grupos políticos:Organos de Gobiern,1411,912,489,80000.0,0.0,80000.0,79279.44
+Aport.Federación Municipios y Provincias:Admón.gen,1411,920,48202,9000.0,0.0,9000.0,0.0
+Personal lab.temporal: Salario Joven 2015/16,0101,24113,131,0.0,3474.38,3474.38,0.0
+Otras inversiones: Vías Públicas,0404,155,619,0.0,419025.63,419025.63,0.0
+Reuniones y conferencias:Programa Life Ecocítric,0802,412,22606,0.0,4731.79,4731.79,0.0

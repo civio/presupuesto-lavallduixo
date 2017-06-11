@@ -96,6 +96,15 @@ def get_programme_id(fc_code, year):
         '23123': '2313',    # Renta garantizada
     }
 
+    # In 2016 we see what looks like a duplicate of an existing programme, so we
+    # merge them together
+    programme_mapping_2016 = {
+        '15500': '1532',    # Otras inversiones
+    }
+    if year == 2016:
+        fc_code = programme_mapping_2016.get(fc_code, fc_code)
+
+    # Do the overall mapping
     if year < 2015:
         return programme_mapping.get(fc_code, fc_code)
     else:
