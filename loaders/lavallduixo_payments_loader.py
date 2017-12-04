@@ -31,7 +31,7 @@ class LavallduixoPaymentsLoader(PaymentsLoader):
         return {
             'area': programme,
             'fc_code': programme_id,
-            'ec_code': item_fields[4],
+            'ec_code': None,
             'date': date,
             'contract_type': '',
             'payee': self._titlecase(line[3].strip()),
