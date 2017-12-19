@@ -1,0 +1,61 @@
+<form class="form-user-incomings" action="#" method="get">
+
+  <h3>{{ _('Impuestos') }}</h3>
+
+  <div class="row">
+    <div class="form-group">
+      <label for="select-area">{{ _('Zona de residencia') }}</label>
+      <select id="select-area" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Area 6') }}</option>
+        <option value="1" type="text">{{ _('Avenidas') }}</option>
+        <option value="2" type="text">{{ _('Barrios periféricos') }}</option>
+        <option value="3" type="text">{{ _('Casco') }}</option>
+        <option value="4" type="text">{{ _('Polígono III') }}</option>
+        <option value="5" type="text">{{ _('San José') }}</option>
+      </select>
+      <select id="select-house" class="form-control" style="margin-top: 10px;"></select>
+    </div>
+    <div class="select-info">{{ _('IBI') }}: <span id="select-house-tax"></span></div>
+  </div>
+    
+  <div class="row">
+    <div class="form-group">
+      <label for="select-vehicle">{{ _('Vehículo') }}</label>
+      <select id="select-vehicle" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguno') }}</option>
+        <option value="1" type="text">{{ _('Coche pequeño') }}</option>
+        <option value="2" type="text">{{ _('Coche mediano/grande') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-vehicle-tax"></span></div>
+  </div>
+    
+  <div class="row">
+    <div class="form-group">
+      <label for="select-extra-vehicle">{{ _('Vehículo adicional') }}</label>
+      <select id="select-extra-vehicle" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguno') }}</option>
+        <option value="1" type="text">{{ _('Coche pequeño') }}</option>
+        <option value="2" type="text">{{ _('Coche mediano/grande') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-extra-vehicle-tax"></span></div>
+  </div>
+    
+  
+  <h3>{{ _('Tasas') }}</h3>
+
+  <div class="row">
+    <div class="form-group">
+      <label for="select-parking">{{ _('¿Tienes un vado?') }}</label>
+      <select id="select-parking" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('No') }}</option>
+        <option value="1" type="text">{{ _('Sí') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Tasa') }}: <span id="select-parking-tax"></span></div>
+  </div>
+
+</form>
+
+<p id="tax-amount">{{ _('Contribuyes con un total de <strong id="tax-amount-paid"></strong> a los presupuestos del Gobierno de Aragón')|safe }}.</p>

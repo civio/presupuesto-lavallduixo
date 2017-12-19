@@ -143,7 +143,13 @@ FEATURED_PROGRAMMES = ['1710', '1521', '1650', '1330', '1630', '1621', '4320', '
 # Use new Sankey visualization or the old one. Default: False
 OVERVIEW_USE_NEW_VIS = True
 
-OVERVIEW_INCOME_NODES = [['11', '113'], '42', '43', '45', '33']
+OVERVIEW_INCOME_NODES = [{
+                            'nodes': [['11', '113']],
+                            'label.es': 'Impuesto sobre bienes inmuebles de naturaleza urbana',
+                            'label.ca': 'Impost sobre béns immobles de naturalesa urbana',
+                            'link_id': '11'
+                          },
+                          '42', '45', '33']
 OVERVIEW_EXPENSE_NODES = ['23', '92', '13', '16', '15', '01', '33', '32', '17']
 
 # How much padding between Sankey nodes. Default: 2 (Optional)
