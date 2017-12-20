@@ -1,0 +1,213 @@
+<script>
+  $(function () {
+
+    var data_tax_home = {
+      "0": [
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":642,
+          "debt":2657.8
+        }
+      ],
+      "1": [
+        {
+          "type":'{{ _("Piso seminuevo") }}',
+          "surface":147,
+          "debt":669.91
+        },
+        {
+          "type":'{{ _("Piso viejo") }}',
+          "surface":122,
+          "debt":412.05
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":245,
+          "debt":1009.81
+        },
+        {
+          "type":'{{ _("Unifamiliar seminueva") }}',
+          "surface":431,
+          "debt":1909.89
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":174,
+          "debt":477.25
+        }    
+      ],
+      "2": [
+        {
+          "type":'{{ _("Piso nuevo") }}',
+          "surface":153,
+          "debt":549.6
+        },
+        {
+          "type":'{{ _("Piso viejo") }}',
+          "surface":77,
+          "debt":202.89
+        },
+        {
+          "type":'{{ _("Piso viejo") }}',
+          "surface":91,
+          "debt":233.31
+        },
+        {
+          "type":'{{ _("Piso viejo") }}',
+          "surface":147,
+          "debt":453.22
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":250,
+          "debt":1167.17
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":380,
+          "debt":1380.53
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":92,
+          "debt":220.54
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":148,
+          "debt":453.97
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":248,
+          "debt":654.59
+        },
+      ],
+      "3": [
+        {
+          "type":'{{ _("Piso nuevo") }}',
+          "surface":112,
+          "debt":443.93
+        },
+        {
+          "type":'{{ _("Piso nuevo") }}',
+          "surface":158,
+          "debt":627.65
+        },
+        {
+          "type":'{{ _("Piso viejo") }}',
+          "surface":94,
+          "debt":260.97
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":210,
+          "debt":891.42
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":438,
+          "debt":1591.6
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":152,
+          "debt":303.44
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":164,
+          "debt":401.53
+        }
+      ],
+      "4": [
+        {
+          "type":'{{ _("Piso nuevo") }}',
+          "surface":200,
+          "debt":825.97
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":500,
+          "debt":2994.99
+        }
+      ],
+      "5": [
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":193,
+          "debt":742.85
+        },
+        {
+          "type":'{{ _("Unifamiliar nueva") }}',
+          "surface":448,
+          "debt":2702.73
+        },
+        {
+          "type":'{{ _("Unifamiliar vieja") }}',
+          "surface":77,
+          "debt":663.67
+        },
+        {
+          "type": '{{ _("Unifamiliar vieja") }}',
+          "surface":363,
+          "debt":1389.31
+        },
+      ]
+    };
+
+    var breakdown = {{ breakdown.to_json( labels=descriptions['functional'] )|safe }},
+        getBreakdownValue = getBreakdownValueFunction('expense', "{{ latest_budget.name()|safe }}"),
+        gridData = breakdownToTable(breakdown),
+        myGrid;
+
+
+    // Set tax receipt taxes values
+    TaxReceipt.taxes.vehicle.values      = [0, 64.45, 136.05];
+    TaxReceipt.taxes.vehicleExtra.values = [0, 64.45, 136.05];
+    TaxReceipt.taxes.garbage.values      = [112.50, 115.09, 109.86, 94.18];
+    TaxReceipt.taxes.parking.values      = [0, 57.00];
+
+    TaxReceipt.taxes.house.callback = function(selector, values) {
+      var val = $('#select-'+selector).val();
+      return val ? +val : 0;
+    };
+
+    delete TaxReceipt.taxes.garbage;
+
+    // Override redrawGrid method
+    TaxReceipt.redrawGrid = function() {
+      if ( myGrid !== undefined ) {
+        myGrid.destroy();
+      }
+
+      myGrid = createBudgetGrid('#myGrid', gridData, [
+        { data: 'label', title: '{{ _("Política") }}', render: getPolicyLinkFormatter() },
+        {
+          data:   getBreakdownValue,
+          title:  '{{ _("Gasto") }}',
+          render: TaxReceipt.calculatePersonalTax,
+          year:   breakdown.years["{{ latest_budget.name()|safe }}"]
+        }
+      ]);
+    };
+
+    // Initialize tax receipt
+    TaxReceipt.setup( breakdown, getBreakdownValue );
+
+    $("#select-area")
+      .change(function(){
+        var $select = $('#select-house').empty();
+        var data = data_tax_home[ $(this).val() ];
+        data.forEach(function (d, i) {
+          $select.append($('<option>', { 
+            value: d.debt,
+            text : d.type+' de '+d.surface+' m²'
+          }));
+        });
+        $('#select-house option:first').attr('selected','selected');
+        $("#select-house").trigger('change');
+      })
+      .trigger('change');
+  });
+</script>
