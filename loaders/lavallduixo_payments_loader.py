@@ -33,7 +33,6 @@ class LavallduixoPaymentsLoader(PaymentsLoader):
             'fc_code': programme_id,
             'ec_code': None,
             'date': date,
-            'contract_type': '',
             'payee': self._titlecase(line[3].strip()),
             'description': self._spanish_titlecase(line[2].strip()),
             'amount': self._read_english_number(line[5])
