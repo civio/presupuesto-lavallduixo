@@ -6,6 +6,10 @@ header{
   a{
     color: white;
   }
+
+  > .container{
+    background: url('../assets/logo-generalitat-valenciana.png') no-repeat 98% 48px transparent;
+  }
 }
 
 #menu-lang ul li{
@@ -24,4 +28,13 @@ header{
 .payments-content #query-panel .panel{
   color: white;
   background: $brand-primary;
+}
+
+@media (max-width:$grid-float-breakpoint) {
+  header > .container {
+    background-position: center 160px;
+  }
+  .main-entity-logo a{
+    margin-bottom: 108px;
+  }
 }
